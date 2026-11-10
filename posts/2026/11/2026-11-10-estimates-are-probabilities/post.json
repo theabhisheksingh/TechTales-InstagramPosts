@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-10",
+  "pillar": "Project Management",
+  "headline": "Your estimate isn't a date. It's a probability.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Delivery · Estimation",
+      "offset": 210,
+      "html": "<h1>Your estimate<br>isn't a date.<br><span class='accent'>It's a<br>probability.</span></h1><p style='margin-top:64px;max-width:760px'>Why delivery dates slip — and how to give ones that hold.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "The problem",
+      "offset": 150,
+      "html": "<div class='kicker'>A familiar meeting</div><h2>“When will it be done?”<br>“Six weeks.”</h2><p>You meant: <em>if nothing surprising happens, roughly six weeks.</em></p><hr><p>They heard: <strong style='font-family:Space Grotesk;font-weight:700;color:#0E0E0E'>a commitment.</strong></p><p style='margin-top:48px;color:#6B6B6B'>Most delivery trust is lost in the gap between what was said and what was heard — not in the engineering.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 120,
+      "html": "<h2>One number hides a range of outcomes.</h2><svg width='850' height='470' viewBox='0 0 850 470' style='margin-top:10px'><line x1='0' y1='400' x2='850' y2='400' stroke='#0E0E0E' stroke-width='2'/><path d='M430,400 L430,212 C520,282 610,336 700,370 C770,390 820,397 850,400 Z' fill='#2F5FE8' opacity='.14'/><path d='M0,400 C90,398 150,70 240,66 C330,62 410,190 520,282 C620,350 730,392 850,400' fill='none' stroke='#0E0E0E' stroke-width='4'/><line x1='240' y1='66' x2='240' y2='400' stroke='#0E0E0E' stroke-width='2' stroke-dasharray='6 8'/><line x1='430' y1='212' x2='430' y2='400' stroke='#2F5FE8' stroke-width='3'/><text x='240' y='40' text-anchor='middle' font-family='Plex Mono' font-size='22' fill='#0E0E0E'>the number you said</text><text x='450' y='190' font-family='Plex Mono' font-size='22' fill='#2F5FE8'>80% done by here</text><text x='640' y='440' text-anchor='middle' font-family='Plex Mono' font-size='22' fill='#2F5FE8'>the long tail</text><text x='0' y='440' font-family='Plex Mono' font-size='22' fill='#6B6B6B'>time →</text></svg><p style='margin-top:20px'>Work can finish a little early. It can finish <em>very</em> late. A single estimate usually sits near the hopeful peak.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "How it works",
+      "offset": 110,
+      "html": "<h2>The Cone of Uncertainty</h2><svg width='860' height='520' viewBox='0 0 860 520'><polygon points='70,40 220,130 370,167 520,191 670,208 820,220 670,232 520,249 370,273 220,310 70,400' fill='#2F5FE8' opacity='.2'/><polyline points='70,40 220,130 370,167 520,191 670,208 820,220' fill='none' stroke='#7C9BF2' stroke-width='3'/><polyline points='70,400 220,310 370,273 520,249 670,232 820,220' fill='none' stroke='#7C9BF2' stroke-width='3'/><line x1='40' y1='220' x2='840' y2='220' stroke='#4A4A50' stroke-width='1.5' stroke-dasharray='5 7'/><g font-family='Plex Mono' font-size='22' fill='#EDEDEA'><text x='70' y='26' text-anchor='middle'>4×</text><text x='70' y='432' text-anchor='middle'>0.25×</text><text x='220' y='116' text-anchor='middle'>2×</text><text x='220' y='342' text-anchor='middle'>0.5×</text><text x='836' y='212'>1×</text></g><g font-family='Plex Mono' font-size='18' fill='#8A8A86' text-anchor='middle'><text x='70' y='480'>idea</text><text x='220' y='480'>scoped</text><text x='370' y='480'>reqs</text><text x='520' y='480'>UI</text><text x='670' y='480'>design</text><text x='820' y='480'>built</text></g></svg><p style='margin-top:18px'>At the idea stage, the real effort can be 4× higher or 4× lower than the estimate. It narrows only as decisions get made — not with time alone.</p>",
+      "footnote": "Boehm / McConnell"
+    },
+    {
+      "theme": "light",
+      "tag": "Real-world example",
+      "offset": 110,
+      "html": "<div class='kicker'>Illustrative · payments integration</div><h2>Same work.<br>Two ways to say it.</h2><div class='mono' style='font-size:30px;line-height:1.7;border-top:2px solid #0E0E0E;border-bottom:2px solid #0E0E0E;padding:26px 0;margin-bottom:40px'><div style='display:flex;justify-content:space-between'><span>P50 — coin flip</span><span>6 weeks</span></div><div style='display:flex;justify-content:space-between;color:#2F5FE8'><span>P80 — likely</span><span>9 weeks</span></div><div style='display:flex;justify-content:space-between;color:#6B6B6B'><span>Tail driver</span><span>vendor sandbox access</span></div></div><p style='color:#6B6B6B;font-size:30px'>Instead of “six weeks”:</p><p style='font-size:36px;margin-top:12px'>“We're 80% confident in nine weeks. The risk is sandbox access — we'll re-estimate once we have it in week two.”</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Four habits for estimates that hold</h2><div style='display:grid;grid-template-columns:90px 1fr;row-gap:44px;margin-top:20px'><span class='mono accent' style='font-size:30px'>01</span><p><strong style='font-family:Space Grotesk'>Give a range with a confidence level.</strong> P50 and P80, not one number.</p><span class='mono accent' style='font-size:30px'>02</span><p><strong style='font-family:Space Grotesk'>Name what drives the tail.</strong> Dependencies, unknowns, people you're waiting on.</p><span class='mono accent' style='font-size:30px'>03</span><p><strong style='font-family:Space Grotesk'>Set a re-estimate checkpoint.</strong> Tie it to a decision, not a calendar date.</p><span class='mono accent' style='font-size:30px'>04</span><p><strong style='font-family:Space Grotesk'>Commit outside at P80. Plan inside at P50.</strong> The gap is your buffer — say so openly.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Key takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:40px;line-height:1.4'>A single number is the most optimistic outcome dressed up as a plan.</p><hr><p style='font-size:40px;line-height:1.4'>Uncertainty shrinks when you <em>make decisions</em>, not when you wait.</p><hr><p style='font-size:40px;line-height:1.4'>Stakeholders don't need certainty. They need to know <span class='accent'>how confident you are</span> — and when that changes.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>Do you share ranges — or does your org only accept one date?</h2><p style='margin-top:30px'>Tell me in the comments. I read every one.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next planning meeting.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
