@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-10",
+  "pillar": "AI in Engineering",
+  "headline": "AI made senior developers 19% slower. They believed it made them 20% faster.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "AI · Engineering productivity",
+      "offset": 170,
+      "html": "<h1 style='font-size:104px'>AI made senior developers <span class='accent'>19% slower.</span></h1><h1 style='font-size:104px;margin-top:40px;color:#8A8A86'>They believed it made them 20% faster.</h1><p class='mono' style='margin-top:60px;font-size:26px;color:#8A8A86'>A randomised study · real repos · real engineers</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "The study",
+      "offset": 130,
+      "html": "<div class='kicker'>METR · Feb–Jun 2025</div><h2>Not a survey.<br>A controlled experiment.</h2><div class='mono' style='font-size:29px;line-height:1.75;border-top:2px solid #0E0E0E;border-bottom:2px solid #0E0E0E;padding:24px 0;margin-bottom:40px'><div style='display:flex;justify-content:space-between'><span>Developers</span><span>16, experienced</span></div><div style='display:flex;justify-content:space-between'><span>Tasks</span><span>246 real issues</span></div><div style='display:flex;justify-content:space-between'><span>Codebases</span><span>1M+ lines, 22k+ ★</span></div><div style='display:flex;justify-content:space-between'><span>Tools</span><span>Cursor + Claude 3.5/3.7</span></div></div><p>Each task was randomly assigned: <strong style='font-family:Space Grotesk'>AI allowed</strong> or <strong style='font-family:Space Grotesk'>AI not allowed.</strong> Then they measured the time.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The gap",
+      "offset": 120,
+      "html": "<h2>What they expected, felt — and what happened</h2><svg width='850' height='520' viewBox='0 0 850 520' style='margin-top:10px'><line x1='360' y1='10' x2='360' y2='470' stroke='#0E0E0E' stroke-width='2'/><g font-family='Plex Mono' font-size='24'><text x='0' y='70' fill='#6B6B6B'>Expected</text><rect x='360' y='90' width='288' height='64' fill='#0E0E0E'/><text x='662' y='133' fill='#0E0E0E'>24% faster</text><text x='0' y='220' fill='#6B6B6B'>Felt afterwards</text><rect x='360' y='240' width='240' height='64' fill='#0E0E0E' opacity='.55'/><text x='614' y='283' fill='#0E0E0E'>20% faster</text><text x='0' y='370' fill='#2F5FE8'>Measured</text><rect x='132' y='390' width='228' height='64' fill='#2F5FE8'/><text x='148' y='433' fill='#FFFFFF'>19% slower</text></g><g font-family='Plex Mono' font-size='20' fill='#6B6B6B'><text x='350' y='505' text-anchor='end'>← slower</text><text x='370' y='505'>faster →</text></g></svg><p style='margin-top:24px'>A 39-point gap between how productive they felt and how productive they were.</p>",
+      "footnote": "Source: METR, Jul 2025"
+    },
+    {
+      "theme": "dark",
+      "tag": "Why it matters",
+      "offset": 170,
+      "html": "<h2 style='font-size:84px'>Feeling productive is not the same as <span class='accent'>being</span> productive.</h2><hr><p>If you lead engineers, this is the real risk: sprint plans, estimates and headcount decisions built on <em>how fast AI feels.</em></p><p style='margin-top:28px'>The people closest to the work were wrong about their own speed — by a lot.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The 2026 twist",
+      "offset": 120,
+      "html": "<div class='kicker'>METR follow-up · Feb 2026</div><h2>The tools got better. Measuring got harder.</h2><p>57 developers, 800+ tasks. Early estimates now point to a <strong style='font-family:Space Grotesk'>speed-up</strong> — about 18% for returning developers, 4% for new ones.</p><hr><p>But METR calls it <em>very weak evidence.</em> Many developers no longer wanted to work without AI, and 30–50% said they held back tasks they didn't want to do without it.</p>",
+      "footnote": "Source: METR, Feb 2026"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Measure AI like any other change</h2><div style='display:grid;grid-template-columns:90px 1fr;row-gap:42px;margin-top:20px'><span class='mono accent' style='font-size:30px'>01</span><p><strong style='font-family:Space Grotesk'>Baseline before rollout.</strong> Cycle time, lead time, rework — captured before anyone changes tools.</p><span class='mono accent' style='font-size:30px'>02</span><p><strong style='font-family:Space Grotesk'>Compare like with like.</strong> Similar tasks, similar size, same team.</p><span class='mono accent' style='font-size:30px'>03</span><p><strong style='font-family:Space Grotesk'>Track quality, not just speed.</strong> Review time, defects, reverted changes.</p><span class='mono accent' style='font-size:30px'>04</span><p><strong style='font-family:Space Grotesk'>Treat “it feels faster” as a hypothesis.</strong> Then test it.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Key takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:40px;line-height:1.4'>Self-reported AI productivity is unreliable — even from experts.</p><hr><p style='font-size:40px;line-height:1.4'>AI may well make your team faster. You won't know unless you <span class='accent'>measure</span>.</p><hr><p style='font-size:40px;line-height:1.4'>The question isn’t “are we using AI?” It’s “what changed in delivery?”</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>Has AI made your team faster — or does it just feel that way?</h2><p style='margin-top:30px'>How do you actually know? Tell me in the comments.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Share</span> this with someone planning an AI rollout.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}

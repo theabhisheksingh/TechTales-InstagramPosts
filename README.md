@@ -15,14 +15,15 @@ posts/YYYY/MM/YYYY-MM-DD-slug/
   post.json             Slide content and per-slide theme
   caption.md            Caption, hashtags, alt text, sources
   slides/slide-NN.png   Rendered carousel
-POSTS.md                Index of every post (date, pillar, headline)
+drafts/<slug>/           Finished posts not yet published (same structure)
+POSTS.md                Index of published posts and drafts
 ```
 
 ## Render a post
 
 ```bash
 cd engine && npm install && pip install playwright
-cd .. && python3 engine/render.py posts/2026/11/2026-11-10-estimates-are-probabilities/post.json
+cd .. && python3 engine/render.py posts/2026/11/2026-11-10-ai-felt-faster/post.json
 ```
 
 ## Visual system
