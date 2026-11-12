@@ -1,4 +1,4 @@
-# Draft — Publishing package
+# 2026-11-13 — Publishing package
 
 **Pillar:** AI in Engineering (Security)
 **Headline:** From leaked secret to stolen data: five minutes.

@@ -1,4 +1,4 @@
-# Draft — Publishing package
+# 2026-11-12 — Publishing package
 
 **Pillar:** Technology & Architecture (Resilience)
 **Headline:** The backup power was fine. It just never got the signal to start.

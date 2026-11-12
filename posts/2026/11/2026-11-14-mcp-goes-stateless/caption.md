@@ -1,4 +1,4 @@
-# Draft — Publishing package
+# 2026-11-14 — Publishing package
 
 **Pillar:** AI in Engineering (Architecture)
 **Headline:** MCP no longer remembers your session. That's the point.
