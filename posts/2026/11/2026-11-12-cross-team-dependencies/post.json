@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-12",
+  "pillar": "Project Management",
+  "headline": "Your critical path runs through a backlog you don't own.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Delivery · Dependencies",
+      "offset": 190,
+      "html": "<h1 style='font-size:110px'>Your critical path runs through a backlog you <span class='accent'>don't own</span>.</h1><p style='margin-top:60px;max-width:800px'>Cross-team dependencies: why they slip, and how to manage them before they do.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "How it usually goes",
+      "offset": 120,
+      "html": "<div class='kicker'>Illustrative · a familiar project</div><div class='mono' style='font-size:29px;line-height:1.45;color:#2B2B2B'><div style='display:grid;grid-template-columns:130px 1fr;row-gap:30px'><span class='accent'>Wk 1</span><span>“We’ll need an auth change from Platform.”</span><span class='accent'>Wk 3</span><span>Ticket raised. Priority: “ASAP”.</span><span class='accent'>Wk 6</span><span>“It’s planned for next sprint.”</span><span class='accent'>Wk 9</span><span>Launch slips. Retro says “dependency risk”.</span></div></div><hr><p>Nobody did anything wrong. The dependency was real from week one — it just wasn’t <em>managed</em> until week nine.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 130,
+      "html": "<h2>A dependency is a request in someone else’s queue.</h2><p>It competes with their roadmap, their incidents and their own deadlines. Your urgency is not their priority.</p><hr><p>“ASAP” gives them nothing to plan with. What they need is:</p><div class='mono' style='font-size:30px;line-height:1.4;margin-top:24px;color:#0E0E0E;display:grid;grid-template-columns:200px 1fr;row-gap:16px'><span class='accent'>What</span><span>exactly you need</span><span class='accent'>By when</span><span>a real date</span><span class='accent'>Why</span><span>what it unblocks</span><span class='accent'>What if</span><span>the cost of being late</span></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 110,
+      "html": "<h2>Where the schedule really breaks</h2><svg width='850' height='560' viewBox='0 0 850 560'><g font-family='Plex Mono'><text x='0' y='30' font-size='21' fill='#6B6B6B' letter-spacing='2'>YOUR TEAM</text><g font-size='25' fill='#0E0E0E' text-anchor='middle'><rect x='0' y='50' width='180' height='90' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='90' y='103'>Design</text><rect x='225' y='50' width='180' height='90' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='315' y='103'>Build</text><rect x='450' y='50' width='180' height='90' fill='none' stroke='#2F5FE8' stroke-width='3'/><text x='540' y='103'>Integrate</text><rect x='675' y='50' width='175' height='90' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='762' y='103'>Launch</text></g><g stroke='#6B6B6B' stroke-width='2'><line x1='180' y1='95' x2='217' y2='95'/><line x1='405' y1='95' x2='442' y2='95'/><line x1='630' y1='95' x2='667' y2='95'/></g><g fill='#6B6B6B'><polygon points='215,87 225,95 215,103'/><polygon points='440,87 450,95 440,103'/><polygon points='665,87 675,95 665,103'/></g><text x='0' y='320' font-size='21' fill='#6B6B6B' letter-spacing='2'>PLATFORM TEAM</text><rect x='225' y='340' width='405' height='90' fill='none' stroke='#2F5FE8' stroke-width='3' stroke-dasharray='12 8'/><text x='427' y='393' font-size='25' fill='#2F5FE8' text-anchor='middle'>Auth API change</text><text x='427' y='470' font-size='21' fill='#6B6B6B' text-anchor='middle'>their backlog · their priorities</text><line x1='540' y1='340' x2='540' y2='160' stroke='#2F5FE8' stroke-width='3'/><polygon points='528,166 552,166 540,146' fill='#2F5FE8'/><text x='562' y='240' font-size='23' fill='#2F5FE8'>need-by:</text><text x='562' y='272' font-size='23' fill='#2F5FE8'>week 6</text></g><text x='0' y='545' font-family='Plex Mono' font-size='21' fill='#6B6B6B'>Illustrative</text></svg><p>The Gantt chart shows four tasks. The real risk is the fifth one, in another team’s plan.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The playbook",
+      "offset": 110,
+      "html": "<h2>Five moves that keep it on track</h2><div style='display:grid;grid-template-columns:90px 1fr;row-gap:30px;align-items:baseline'><span class='mono accent' style='font-size:40px'>01</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Map them in week one.</strong> Every input you need from outside the team.</p><span class='mono accent' style='font-size:40px'>02</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Ask for a date, not “ASAP”.</strong> A need-by date and the reason behind it.</p><span class='mono accent' style='font-size:40px'>03</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Agree the interface first.</strong> A contract and a stub let both teams build in parallel.</p><span class='mono accent' style='font-size:40px'>04</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Name an owner on each side.</strong> Two people, one weekly check.</p><span class='mono accent' style='font-size:40px'>05</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Escalate early, with options.</strong> Not blame — trade-offs.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<div class='kicker'>Illustrative · one card per dependency</div><div class='mono' style='font-size:27px;line-height:1.5;color:#2B2B2B;border-left:4px solid #2F5FE8;padding-left:32px'><div style='font-size:32px;color:#0E0E0E;font-weight:500'>DEP-03 · Auth API change</div><div style='margin-top:22px'><span class='accent'>From:</span> Platform team</div><div style='margin-top:14px'><span class='accent'>Owners:</span> their tech lead · our TPM</div><div style='margin-top:14px'><span class='accent'>Need-by:</span> week 6 (integration starts)</div><div style='margin-top:14px'><span class='accent'>Latest safe:</span> week 8 — after that, launch moves</div><div style='margin-top:14px'><span class='accent'>Fallback:</span> ship on current auth behind a flag</div><div style='margin-top:14px'><span class='accent'>Status:</span> agreed · interface signed off</div></div><p style='margin-top:44px'>Review every card in the same meeting, every week. The fallback is what makes escalation calm.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Key takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:40px;line-height:1.4'>“ASAP” is not a date. Give a need-by and a reason.</p><hr><p style='font-size:40px;line-height:1.4'>Agree the <span class='accent'>interface</span> before the implementation.</p><hr><p style='font-size:40px;line-height:1.4'>Escalate before the latest safe date — never after it.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:78px'>Which dependency slipped on your last project — and when did you first see it coming?</h2><p style='margin-top:30px'>Tell me in the comments.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next kickoff.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
