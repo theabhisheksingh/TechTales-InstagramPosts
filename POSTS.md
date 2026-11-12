@@ -13,3 +13,6 @@ Published posts only. Ready-made but unpublished posts live in `drafts/`.
 | Pillar | Headline | Folder |
 |---|---|---|
 | Project Management | Your estimate isn't a date. It's a probability. | [drafts/estimates-are-probabilities](drafts/estimates-are-probabilities) |
+| Technology & Architecture | The backup power was fine. It just never got the signal to start. | [drafts/failover-never-tested](drafts/failover-never-tested) |
+| AI in Engineering | From leaked secret to stolen data: five minutes. | [drafts/leaked-secret-five-minutes](drafts/leaked-secret-five-minutes) |
+| AI in Engineering | MCP no longer remembers your session. That's the point. | [drafts/mcp-goes-stateless](drafts/mcp-goes-stateless) |

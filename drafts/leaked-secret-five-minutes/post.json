@@ -1,0 +1,57 @@
+{
+  "date": "draft",
+  "pillar": "AI in Engineering",
+  "headline": "From leaked secret to stolen data: five minutes.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "AI · Security",
+      "offset": 210,
+      "html": "<h1 style='font-size:112px'>From leaked secret to stolen data: <span class='accent'>five minutes.</span></h1><p style='margin-top:60px;max-width:800px'>Attackers are using AI agents to find and abuse exposed credentials. Your response time just changed.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "What Microsoft observed",
+      "offset": 150,
+      "html": "<div class='kicker'>Microsoft Threat Intelligence · 5 Nov 2026</div><h2>An agent did the attacker’s legwork.</h2><p>In one observed case, an AI agent went from scanning GitHub for client secrets to exfiltrating data from Azure Key Vault in about five minutes.</p><hr><p>No human had to read the code, test the credential or work out what it could reach. The tooling did all three.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 110,
+      "html": "<h2>The five-minute chain</h2><svg width='850' height='620' viewBox='0 0 850 620'><g font-family='Plex Mono' font-size='25'><g fill='#6B6B6B' font-size='22'><text x='0' y='48'>1</text><text x='0' y='168'>2</text><text x='0' y='288'>3</text><text x='0' y='408'>4</text><text x='0' y='528'>5</text></g><line x1='60' y1='40' x2='60' y2='520' stroke='#D4D4D0' stroke-width='3'/><g fill='#0E0E0E'><circle cx='60' cy='40' r='10'/><circle cx='60' cy='160' r='10'/><circle cx='60' cy='280' r='10'/><circle cx='60' cy='400' r='10'/></g><circle cx='60' cy='520' r='12' fill='#2F5FE8'/><text x='100' y='48' fill='#0E0E0E'>Scan public repos for secrets</text><text x='100' y='168' fill='#0E0E0E'>Find an app’s client secret</text><text x='100' y='288' fill='#0E0E0E'>Sign in as that app</text><text x='100' y='408' fill='#0E0E0E'>Enumerate what it can read</text><text x='100' y='528' fill='#2F5FE8'>Pull data from Key Vault</text></g><text x='0' y='600' font-family='Plex Mono' font-size='21' fill='#6B6B6B'>Simplified from Microsoft’s report · one observed case</text></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>Deleting the file does not un-leak the secret.</h2><p>Git keeps history. Forks and clones keep copies. Automated scanners may have read it within minutes.</p><hr><p style='color:#0E0E0E'>Microsoft’s guidance is blunt: treat any credential that was ever public as <span class='accent'>compromised</span> — even after the file is edited.</p><p style='margin-top:30px'>The fix is rotation, not a cleanup commit.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Change the defaults, not just the habits</h2><div class='mono' style='font-size:27px;line-height:1.4;color:#2B2B2B;display:grid;grid-template-columns:1fr 1fr;column-gap:36px;row-gap:26px'><span style='color:#6B6B6B;font-size:22px;letter-spacing:.08em'>INSTEAD OF</span><span class='accent' style='font-size:22px;letter-spacing:.08em'>MOVE TO</span><span>Client secrets in config</span><span style='color:#0E0E0E'>Managed identities</span><span>Hoping nobody commits keys</span><span style='color:#0E0E0E'>Secret scanning + push protection</span><span>Broad app permissions</span><span style='color:#0E0E0E'>Least-privilege roles per app</span><span>Long-lived secrets</span><span style='color:#0E0E0E'>Short maximum lifetimes</span><span>Edit the file and move on</span><span style='color:#0E0E0E'>Rotate everything it could reach</span></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "For delivery leads",
+      "offset": 140,
+      "html": "<h2>Put it in the plan, not the wiki</h2><p>This is not only a security team problem. It is a delivery problem: who owns the secret, how fast can you rotate it, and does your pipeline block the next leak?</p><hr><p class='mono' style='font-size:29px;line-height:1.6;color:#2B2B2B'><span class='accent'>→</span> Add push protection to the definition of done<br><span class='accent'>→</span> Name an owner for every service identity<br><span class='accent'>→</span> Rehearse a rotation before you need one</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Key takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:40px;line-height:1.4'>The gap between leak and breach is now measured in <span class='accent'>minutes</span>.</p><hr><p style='font-size:40px;line-height:1.4'>A public secret is a compromised secret. Rotate it.</p><hr><p style='font-size:40px;line-height:1.4'>The best secret is one that never exists — use managed identities.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>How long would it take your team to rotate a leaked production secret?</h2><p style='margin-top:30px'>Minutes, hours or days? Be honest in the comments.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Share</span> this with whoever owns your CI/CD.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}

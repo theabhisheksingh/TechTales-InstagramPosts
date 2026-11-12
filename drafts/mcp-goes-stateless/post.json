@@ -1,0 +1,57 @@
+{
+  "date": "draft",
+  "pillar": "AI in Engineering",
+  "headline": "MCP no longer remembers your session. That's the point.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "AI · Architecture",
+      "offset": 210,
+      "html": "<h1 style='font-size:108px'>MCP no longer remembers your session. <span class='accent'>That’s the point.</span></h1><p style='margin-top:60px;max-width:800px'>What the stateless Model Context Protocol changes for teams running agents in production.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>Spec revision 2026-07-28</div><h2>The protocol your agents use to call tools just changed shape.</h2><p>MCP is how an AI client discovers and calls tools on a server. Until now, every connection started with a handshake and lived inside a session.</p><hr><p style='color:#0E0E0E'>The new revision removes both. Each request now stands on its own.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 110,
+      "html": "<h2>Before and after</h2><svg width='850' height='620' viewBox='0 0 850 620'><g font-family='Plex Mono'><text x='0' y='28' font-size='21' fill='#6B6B6B' letter-spacing='2'>BEFORE</text><text x='450' y='28' font-size='21' fill='#2F5FE8' letter-spacing='2'>NOW</text><g font-size='24' text-anchor='middle'><rect x='0' y='50' width='380' height='80' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='190' y='99' fill='#0E0E0E'>Client</text><rect x='450' y='50' width='400' height='80' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='650' y='99' fill='#0E0E0E'>Client</text></g><line x1='190' y1='130' x2='190' y2='420' stroke='#6B6B6B' stroke-width='2'/><polygon points='182,412 198,412 190,426' fill='#6B6B6B'/><g font-size='22' fill='#6B6B6B'><text x='206' y='200'>initialize</text><text x='206' y='260'>session id</text><text x='206' y='320'>every call</text><text x='206' y='350'>tied to it</text></g><rect x='0' y='426' width='380' height='80' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='190' y='475' font-size='24' fill='#0E0E0E' text-anchor='middle'>Server A only</text><g stroke='#2F5FE8' stroke-width='3'><line x1='650' y1='130' x2='510' y2='414'/><line x1='650' y1='130' x2='650' y2='414'/><line x1='650' y1='130' x2='790' y2='414'/></g><g fill='#2F5FE8'><polygon points='502,404 518,412 506,428'/><polygon points='642,412 658,412 650,428'/><polygon points='782,412 798,404 794,428'/></g><rect x='450' y='270' width='400' height='76' fill='#F7F7F5' stroke='#2F5FE8' stroke-width='2'/><text x='650' y='302' font-size='21' fill='#2F5FE8' text-anchor='middle'>each request carries</text><text x='650' y='332' font-size='21' fill='#2F5FE8' text-anchor='middle'>version + capabilities</text><g font-size='24' text-anchor='middle' fill='#0E0E0E'><rect x='450' y='430' width='120' height='76' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='510' y='476'>A</text><rect x='590' y='430' width='120' height='76' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='650' y='476'>B</text><rect x='730' y='430' width='120' height='76' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='790' y='476'>C</text></g><text x='650' y='550' font-size='22' fill='#6B6B6B' text-anchor='middle'>any instance can answer</text></g><text x='0' y='605' font-family='Plex Mono' font-size='21' fill='#6B6B6B'>Simplified</text></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "What changed",
+      "offset": 110,
+      "html": "<h2>Four changes worth knowing</h2><div class='mono' style='font-size:28px;line-height:1.45;color:#2B2B2B;display:grid;grid-template-columns:70px 1fr;row-gap:30px'><span class='accent'>01</span><span>No initialize handshake. No session header. Version and capabilities travel with each request.</span><span class='accent'>02</span><span>Servers expose a new <span style='color:#0E0E0E'>server/discover</span> call instead.</span><span class='accent'>03</span><span>Long-running tasks move out of the core into an official extension.</span><span class='accent'>04</span><span>Stricter auth: clients validate the issuer, and dynamic client registration is deprecated.</span></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Why architects care",
+      "offset": 150,
+      "html": "<h2>Stateless is easier to run.</h2><p>No sticky sessions means a plain load balancer can spread tool calls across instances. Scale out, restart or redeploy a server without breaking a client mid-conversation.</p><hr><p style='color:#0E0E0E'>MCP servers start to look like ordinary <span class='accent'>HTTP services</span> — and can be operated like them.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The trade-off",
+      "offset": 120,
+      "html": "<h2>State moved. Risk moved with it.</h2><p>Akamai’s researchers argue the protocol is safer, but servers built on it gain new attack surface:</p><hr><div class='mono' style='font-size:28px;line-height:1.45;color:#2B2B2B'><div><span class='accent'>→</span> Guessable state or task IDs</div><div style='margin-top:20px'><span class='accent'>→</span> Tokens or PII leaking into headers and logs</div><div style='margin-top:20px'><span class='accent'>→</span> Long-running tasks used to burn compute</div><div style='margin-top:20px'><span class='accent'>→</span> UI extensions opening XSS paths</div></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 150,
+      "html": "<h2>Before you upgrade</h2><p style='font-size:38px;line-height:1.4'>Inventory every MCP server you run — and who owns it.</p><hr><p style='font-size:38px;line-height:1.4'>Make state IDs <span class='accent'>random</span> and scope them to the caller.</p><hr><p style='font-size:38px;line-height:1.4'>Scrub headers in proxies and logs. Cap task duration and cost.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>Are you running MCP servers in production yet — or still in experiments?</h2><p style='margin-top:30px'>Tell me what is stopping you, or what broke.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next architecture review.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}

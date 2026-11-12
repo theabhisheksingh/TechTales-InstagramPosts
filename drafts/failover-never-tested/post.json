@@ -1,0 +1,57 @@
+{
+  "date": "draft",
+  "pillar": "Technology & Architecture",
+  "headline": "The backup power was fine. It just never got the signal to start.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Architecture · Resilience",
+      "offset": 190,
+      "html": "<h1 style='font-size:100px'>The backup power was fine. It just never got the <span class='accent'>signal</span> to start.</h1><p style='margin-top:60px;max-width:800px'>What Google Cloud’s London outage teaches about failover you have never really tested.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "What happened",
+      "offset": 120,
+      "html": "<div class='kicker'>20 Oct 2026 · europe-west2-b · London</div><div class='mono' style='font-size:29px;line-height:1.45;color:#2B2B2B'><div style='display:grid;grid-template-columns:150px 1fr;row-gap:28px'><span class='accent'>07:00</span><span>A cable fault cuts the zone’s main utility feed.</span><span class='accent'>+0</span><span>The second feed is already offline for maintenance.</span><span class='accent'>+0</span><span>Generators do not start.</span><span class='accent'>~5 min</span><span>UPS batteries run out. Servers, storage and network lose power.</span><span class='accent'>~6 h</span><span>Until most services recover.</span></div></div><hr><p>Times in UK time, from Google’s incident report.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The failure chain",
+      "offset": 110,
+      "html": "<h2>One sensor, wired in the wrong place</h2><svg width='850' height='600' viewBox='0 0 850 600'><g font-family='Plex Mono' font-size='25'><rect x='0' y='0' width='850' height='86' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='52' fill='#0E0E0E'>Utility feed A fails</text><line x1='60' y1='86' x2='60' y2='124' stroke='#6B6B6B' stroke-width='2'/><polygon points='52,118 68,118 60,130' fill='#6B6B6B'/><rect x='0' y='130' width='850' height='120' fill='none' stroke='#2F5FE8' stroke-width='3'/><text x='28' y='178' fill='#2F5FE8'>Control logic reads a sensor upstream</text><text x='28' y='216' fill='#2F5FE8'>of the open breaker: “power is healthy”</text><line x1='60' y1='250' x2='60' y2='288' stroke='#6B6B6B' stroke-width='2'/><polygon points='52,282 68,282 60,294' fill='#6B6B6B'/><rect x='0' y='294' width='850' height='86' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='346' fill='#0E0E0E'>Generators never auto-start</text><line x1='60' y1='380' x2='60' y2='418' stroke='#6B6B6B' stroke-width='2'/><polygon points='52,412 68,412 60,424' fill='#6B6B6B'/><rect x='0' y='424' width='850' height='86' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='476' fill='#0E0E0E'>UPS drains · zone goes dark</text></g><text x='0' y='570' font-family='Plex Mono' font-size='21' fill='#6B6B6B'>Simplified from Google’s incident report</text></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "The real lesson",
+      "offset": 150,
+      "html": "<h2>Every part worked. The combination had never been tried.</h2><p>Generators were tested. The feeds were maintained. The UPS did its job.</p><hr><p>But the backup path had never run under the exact condition that triggers it: <em>one feed already down, the other failing</em>.</p><p style='margin-top:30px;color:#0E0E0E'>A failover you have not tested in that state is a <span class='accent'>hypothesis</span>, not a plan.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The second-order effect",
+      "offset": 140,
+      "html": "<h2>Losing one zone stressed the other two</h2><p>Workloads failed over from zone b to zones a and c at the same time. That demand surge, plus control-plane dependencies across zones, spread the impact wider than one building.</p><hr><p style='color:#0E0E0E'>Ask of your own design:</p><p class='mono' style='font-size:30px;line-height:1.6;margin-top:16px'><span class='accent'>→</span> Can the surviving zones absorb the full load?<br><span class='accent'>→</span> Does anything you need to recover live only in the failed zone?</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Test the failover you actually depend on</h2><div style='display:grid;grid-template-columns:90px 1fr;row-gap:30px;align-items:baseline'><span class='mono accent' style='font-size:40px'>01</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Test in degraded states.</strong> Fail the backup while maintenance is already in progress.</p><span class='mono accent' style='font-size:40px'>02</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Check what the detector sees.</strong> Health checks can report “healthy” from the wrong vantage point.</p><span class='mono accent' style='font-size:40px'>03</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Size for N−1.</strong> Remaining zones must carry peak load, not average load.</p><span class='mono accent' style='font-size:40px'>04</span><p><strong style='font-family:Space Grotesk;color:#0E0E0E'>Map recovery dependencies.</strong> Your restore path must not need the thing that failed.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Key takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:40px;line-height:1.4'>Redundancy you have not exercised is an assumption.</p><hr><p style='font-size:40px;line-height:1.4'>The riskiest moment is during <span class='accent'>maintenance</span> — when one safety net is already gone.</p><hr><p style='font-size:40px;line-height:1.4'>Plan for the failover load, not just the failure.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>When did you last test failover while something else was already broken?</h2><p style='margin-top:30px'>Tell me in the comments — honestly.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next game day.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
