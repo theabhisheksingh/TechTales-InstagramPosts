@@ -10,6 +10,7 @@ Published posts only. Ready-made but unpublished posts live in `drafts/`.
 | 2026-11-12 | Technology & Architecture | The backup power was fine. It just never got the signal to start. | [posts/2026/11/2026-11-12-failover-never-tested](posts/2026/11/2026-11-12-failover-never-tested) |
 | 2026-11-13 | AI in Engineering | From leaked secret to stolen data: five minutes. | [posts/2026/11/2026-11-13-leaked-secret-five-minutes](posts/2026/11/2026-11-13-leaked-secret-five-minutes) |
 | 2026-11-14 | AI in Engineering | MCP no longer remembers your session. That's the point. | [posts/2026/11/2026-11-14-mcp-goes-stateless](posts/2026/11/2026-11-14-mcp-goes-stateless) |
+| 2026-11-15 | Leadership | Bad news doesn't age well. Deliver it while it's still small. | [posts/2026/11/2026-11-15-bad-news-early](posts/2026/11/2026-11-15-bad-news-early) |
 
 ## Drafts
 

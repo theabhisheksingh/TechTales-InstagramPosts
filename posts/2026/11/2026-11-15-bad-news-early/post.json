@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-15",
+  "pillar": "Leadership",
+  "headline": "Bad news doesn't age well. Deliver it while it's still small.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Leadership",
+      "offset": 210,
+      "html": "<h1 style='font-size:112px'>Bad news doesn’t age well.</h1><h1 style='font-size:112px;margin-top:24px' class='accent'>Deliver it while it’s still small.</h1><p style='margin-top:60px;max-width:800px'>How experienced leads tell a client or sponsor that the plan has slipped — and keep their trust.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>Why we wait</div><h2>Most delays are known weeks before they are announced.</h2><p>We tell ourselves the team might still recover. That we need more data first. That raising it now looks like weakness.</p><hr><p style='color:#0E0E0E'>So the risk sits in a status report marked <span class='mono accent'>amber</span> — until one Friday it becomes <span class='mono'>red</span> and a surprise.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>Time doesn’t make bad news smaller. It removes your options.</h2><p>Early, a slip can be absorbed: cut scope, add a phase, move a dependency, shift a launch date nobody has announced yet.</p><hr><p style='color:#0E0E0E'>Late, the only option left is the one nobody wanted — and the client also learns <span class='accent'>you knew</span>.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2>The window closes quietly</h2><svg width='850' height='660' viewBox='0 0 850 660'><g font-family='Plex Mono'><line x1='200' y1='110' x2='200' y2='500' stroke='#D4D4D0' stroke-width='2'/><line x1='700' y1='110' x2='700' y2='500' stroke='#D4D4D0' stroke-width='2'/><line x1='60' y1='40' x2='60' y2='500' stroke='#0E0E0E' stroke-width='2'/><line x1='60' y1='500' x2='830' y2='500' stroke='#0E0E0E' stroke-width='2'/><polygon points='822,492 838,500 822,508' fill='#0E0E0E'/><path d='M60 110 C 300 125, 480 310, 800 470' fill='none' stroke='#2F5FE8' stroke-width='5'/><path d='M60 460 C 330 450, 520 320, 800 130' fill='none' stroke='#6B6B6B' stroke-width='4' stroke-dasharray='12 10'/><text x='80' y='80' font-size='24' fill='#2F5FE8'>options you still have</text><text x='830' y='100' font-size='24' fill='#6B6B6B' text-anchor='end'>cost of the surprise</text><circle cx='200' cy='132' r='10' fill='#2F5FE8'/><circle cx='700' cy='197' r='10' fill='#0E0E0E'/><text x='200' y='545' font-size='24' fill='#2F5FE8' text-anchor='middle'>you notice</text><text x='700' y='545' font-size='24' fill='#0E0E0E' text-anchor='middle'>client notices</text><text x='450' y='600' font-size='22' fill='#6B6B6B' text-anchor='middle'>time →</text><text x='0' y='650' font-size='20' fill='#6B6B6B'>Conceptual, not measured data</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Illustrative example",
+      "offset": 120,
+      "html": "<h2>Same slip. Two conversations.</h2><div class='kicker' style='color:#6B6B6B;margin-bottom:16px'>Week 3 of 12</div><p>“A vendor API we depend on is two weeks late. Here are three ways to protect the launch. I recommend option B.”</p><hr><div class='kicker' style='color:#6B6B6B;margin-bottom:16px'>Week 11 of 12</div><p>“We won’t make the launch date.”</p><hr><p class='mono' style='font-size:26px;color:#6B6B6B'>The first is a decision. The second is a crisis.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 170,
+      "html": "<h2>A four-part message</h2><div style='display:grid;grid-template-columns:90px 1fr;row-gap:44px;align-items:baseline'><span class='mono accent' style='font-size:30px'>01</span><p><b style='font-family:Space Grotesk'>What happened.</b> One sentence of fact, no adjectives.</p><span class='mono accent' style='font-size:30px'>02</span><p><b style='font-family:Space Grotesk'>Impact.</b> Dates, scope, cost — with your confidence level.</p><span class='mono accent' style='font-size:30px'>03</span><p><b style='font-family:Space Grotesk'>Options.</b> Two or three, each with its trade-off.</p><span class='mono accent' style='font-size:30px'>04</span><p><b style='font-family:Space Grotesk'>The ask.</b> The decision you need, and by when.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 150,
+      "html": "<h2>Habits that make this normal</h2><p style='font-size:36px'>Agree a trigger in advance: <span class='accent'>“if X slips by N days, we escalate.”</span></p><hr><p style='font-size:36px'>Never let a risk stay amber for more than two reports without a decision.</p><hr><p style='font-size:36px'>Thank people who raise problems early. Teams copy what gets rewarded.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>What’s the hardest piece of bad news you’ve had to deliver to a client?</h2><p style='margin-top:30px'>And what would you do differently now?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next status meeting.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
