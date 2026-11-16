@@ -11,6 +11,7 @@ Published posts only. Ready-made but unpublished posts live in `drafts/`.
 | 2026-11-13 | AI in Engineering | From leaked secret to stolen data: five minutes. | [posts/2026/11/2026-11-13-leaked-secret-five-minutes](posts/2026/11/2026-11-13-leaked-secret-five-minutes) |
 | 2026-11-14 | AI in Engineering | MCP no longer remembers your session. That's the point. | [posts/2026/11/2026-11-14-mcp-goes-stateless](posts/2026/11/2026-11-14-mcp-goes-stateless) |
 | 2026-11-15 | Leadership | Bad news doesn't age well. Deliver it while it's still small. | [posts/2026/11/2026-11-15-bad-news-early](posts/2026/11/2026-11-15-bad-news-early) |
+| 2026-11-16 | Product & Startups | Your MVP doesn't need perfect architecture. It needs decisions you can undo. | [posts/2026/11/2026-11-16-mvp-two-way-doors](posts/2026/11/2026-11-16-mvp-two-way-doors) |
 
 ## Drafts
 

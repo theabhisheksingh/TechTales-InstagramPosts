@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-16",
+  "pillar": "Product & Startups",
+  "headline": "Your MVP doesn't need perfect architecture. It needs decisions you can undo.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Product · Architecture",
+      "offset": 190,
+      "html": "<h1 style='font-size:104px'>Your MVP doesn’t need perfect architecture.</h1><h1 style='font-size:104px;margin-top:24px' class='accent'>It needs decisions you can undo.</h1><p style='margin-top:56px;max-width:800px'>How to tell which early choices deserve a week of thought — and which deserve an hour.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>Two ways MVPs go wrong</div><h2>Teams treat every decision the same.</h2><p><b style='font-family:Space Grotesk'>Some debate everything.</b> Three weeks choosing a CI tool, a queue, a framework — before a single user has signed up.</p><hr><p><b style='font-family:Space Grotesk'>Some debate nothing.</b> The data model and the public API get decided in a hurry, then customers build on top of them.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>One-way doors and two-way doors</h2><p>In Amazon’s 2015 shareholder letter, Jeff Bezos separated decisions into two types.</p><hr><p style='color:#0E0E0E'><span class='mono accent'>One-way door</span> — hard or impossible to reverse. Slow down, think it through.</p><hr><p style='color:#0E0E0E'><span class='mono accent'>Two-way door</span> — if it’s wrong, you walk back through. Decide fast, with a small group.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2>Sort by the cost to undo</h2><svg width='850' height='700' viewBox='0 0 850 700'><g font-family='Plex Mono'><line x1='40' y1='40' x2='40' y2='600' stroke='#0E0E0E' stroke-width='2'/><polygon points='32,592 48,592 40,608' fill='#0E0E0E'/><text x='0' y='650' font-size='22' fill='#0E0E0E'>cost to undo ↓</text><text x='70' y='30' font-size='21' fill='#6B6B6B' letter-spacing='2'>TWO-WAY · DECIDE IN HOURS</text><g font-size='26' fill='#0E0E0E'><circle cx='40' cy='80' r='8' fill='#6B6B6B'/><text x='70' y='89'>CI/CD tool</text><circle cx='40' cy='130' r='8' fill='#6B6B6B'/><text x='70' y='139'>UI component library</text><circle cx='40' cy='180' r='8' fill='#6B6B6B'/><text x='70' y='189'>Internal service names</text></g><line x1='70' y1='230' x2='850' y2='230' stroke='#D4D4D0' stroke-width='2'/><text x='70' y='272' font-size='21' fill='#6B6B6B' letter-spacing='2'>COSTLY · ADD A SEAM</text><g font-size='26' fill='#0E0E0E'><circle cx='40' cy='315' r='8' fill='#0E0E0E'/><text x='70' y='324'>Auth provider</text><circle cx='40' cy='365' r='8' fill='#0E0E0E'/><text x='70' y='374'>Cloud-specific services</text></g><line x1='70' y1='415' x2='850' y2='415' stroke='#D4D4D0' stroke-width='2'/><text x='70' y='457' font-size='21' fill='#2F5FE8' letter-spacing='2'>ONE-WAY · DECIDE IN DAYS</text><g font-size='26' fill='#2F5FE8'><circle cx='40' cy='500' r='9' fill='#2F5FE8'/><text x='70' y='509'>Core data model</text><circle cx='40' cy='550' r='9' fill='#2F5FE8'/><text x='70' y='559'>Public API + webhooks</text></g><text x='0' y='695' font-size='20' fill='#6B6B6B'>Illustrative placement — it depends on your context</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Illustrative example",
+      "offset": 120,
+      "html": "<h2>Same sprint. Two decisions.</h2><div class='kicker' style='color:#6B6B6B;margin-bottom:16px'>Background job library</div><p>Nothing outside the codebase sees it. Swapping it later is a few days of work. <span class='accent'>Pick one this afternoon.</span></p><hr><div class='kicker' style='color:#6B6B6B;margin-bottom:16px'>Webhook payload format</div><p>The day a customer integrates, it becomes their code too. <span class='accent'>Version it from day one and review it properly.</span></p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 150,
+      "html": "<h2>Three questions before you decide</h2><div style='display:grid;grid-template-columns:90px 1fr;row-gap:44px;align-items:baseline'><span class='mono accent' style='font-size:30px'>01</span><p><b style='font-family:Space Grotesk'>Who builds on it?</b> If customers, partners or stored data depend on it, treat it as one-way.</p><span class='mono accent' style='font-size:30px'>02</span><p><b style='font-family:Space Grotesk'>What would undoing cost?</b> Estimate it in weeks, not feelings.</p><span class='mono accent' style='font-size:30px'>03</span><p><b style='font-family:Space Grotesk'>Can we add a seam?</b> An interface or adapter can turn a one-way door into a two-way one.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:38px'>Speed in an MVP comes from deciding <span class='accent'>reversible</span> things quickly — not from deciding everything quickly.</p><hr><p style='font-size:38px'>Spend your design time where customers and data will lock you in.</p><hr><p style='font-size:38px'>Write down which doors you treated as one-way, and why.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>Which early decision turned out to be a one-way door?</h2><p style='margin-top:30px'>The one you wish you had spent another week on.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next design review.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
