@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-17",
+  "pillar": "Project Management",
+  "headline": "A risk without a trigger is just a worry.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Delivery · Risk",
+      "offset": 230,
+      "html": "<h1>A risk without a trigger</h1><h1 class='accent' style='margin-top:24px'>is just a worry.</h1><p style='margin-top:56px;max-width:800px'>Why risk registers go stale — and the two columns that turn them into early warnings.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>A familiar pattern</div><h2>The risk that hit you was already on the list.</h2><p>At kickoff the team writes twenty risks and rates each one High, Medium or Low.</p><hr><p>Six weeks later, one of them lands. It was rated Medium, owned by “the team”, and nobody saw it moving — because nothing told them what to watch.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>Add a trigger and a response</h2><p style='color:#0E0E0E'><span class='mono accent'>Risk</span> — what might happen, and what it would cost.</p><hr><p style='color:#0E0E0E'><span class='mono accent'>Trigger</span> — an observable signal that it is starting: a date, a number, an event.</p><hr><p style='color:#0E0E0E'><span class='mono accent'>Response</span> — what you do the moment the trigger fires, agreed in advance.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2>Triggers buy you runway</h2><svg width='850' height='720' viewBox='0 0 850 720'><g font-family='Plex Mono'><text x='40' y='60' font-size='23' fill='#6B6B6B' letter-spacing='2'>WITHOUT A TRIGGER</text><line x1='40' y1='170' x2='820' y2='170' stroke='#D4D4D0' stroke-width='3'/><g fill='#6B6B6B'><circle cx='60' cy='170' r='9'/><circle cx='380' cy='170' r='9'/><circle cx='590' cy='170' r='9'/></g><circle cx='800' cy='170' r='10' fill='#0E0E0E'/><g font-size='23' fill='#6B6B6B'><text x='60' y='140' text-anchor='middle'>wk 1</text><text x='380' y='140' text-anchor='middle'>wk 3</text><text x='590' y='140' text-anchor='middle'>wk 4</text><text x='800' y='140' text-anchor='middle'>wk 5</text></g><g font-size='26' fill='#0E0E0E'><text x='40' y='215'>signal</text><text x='40' y='246'>appears</text><text x='380' y='215' text-anchor='middle'>noticed in</text><text x='380' y='246' text-anchor='middle'>status review</text><text x='590' y='215' text-anchor='middle'>options</text><text x='590' y='246' text-anchor='middle'>debated</text><text x='820' y='215' text-anchor='end'>action</text><text x='820' y='246' text-anchor='end'>starts</text></g><line x1='40' y1='310' x2='820' y2='310' stroke='#D4D4D0' stroke-width='2' stroke-dasharray='6 8'/><text x='40' y='380' font-size='23' fill='#2F5FE8' letter-spacing='2'>WITH A TRIGGER</text><line x1='40' y1='490' x2='820' y2='490' stroke='#D4D4D0' stroke-width='3'/><circle cx='60' cy='490' r='10' fill='#2F5FE8'/><circle cx='200' cy='490' r='10' fill='#2F5FE8'/><line x1='60' y1='490' x2='200' y2='490' stroke='#2F5FE8' stroke-width='5'/><text x='60' y='460' font-size='23' fill='#6B6B6B' text-anchor='middle'>wk 1</text><text x='200' y='460' font-size='23' fill='#6B6B6B' text-anchor='middle'>same day</text><g font-size='26' fill='#2F5FE8'><text x='40' y='535'>trigger</text><text x='40' y='566'>fires</text><text x='200' y='535'>response</text><text x='200' y='566'>starts</text></g><line x1='200' y1='620' x2='820' y2='620' stroke='#2F5FE8' stroke-width='2'/><line x1='200' y1='605' x2='200' y2='635' stroke='#2F5FE8' stroke-width='2'/><line x1='820' y1='605' x2='820' y2='635' stroke='#2F5FE8' stroke-width='2'/><text x='510' y='670' font-size='27' fill='#2F5FE8' text-anchor='middle'>~4 weeks of runway kept</text><text x='40' y='715' font-size='20' fill='#6B6B6B'>Illustrative timeline</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Illustrative example",
+      "offset": 110,
+      "html": "<h2>Same risk. Written twice.</h2><div class='kicker' style='color:#6B6B6B;margin-bottom:16px'>Before</div><p class='mono' style='font-size:28px'>Vendor API delay · High · Owner: PM</p><hr><div class='kicker' style='color:#6B6B6B;margin-bottom:16px'>After</div><p style='font-size:31px'><span class='mono accent' style='font-size:26px'>TRIGGER</span> No sandbox access by 5 Dec, or fewer than 2 of 4 endpoints live in it.</p><p style='font-size:31px;margin-top:20px'><span class='mono accent' style='font-size:26px'>RESPONSE</span> Test against mocks, move integration testing one sprint, tell the sponsor that day.</p><p style='font-size:31px;margin-top:20px'><span class='mono accent' style='font-size:26px'>OWNER</span> One named person.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 130,
+      "html": "<h2>Rewrite each risk as a card</h2><div style='border:2px solid #0E0E0E;background:#F7F7F5;padding:44px 48px'><p class='mono' style='font-size:28px;line-height:1.65;color:#0E0E0E'><span class='accent'>IF</span> &lt;condition&gt;<br><span class='accent'>THEN</span> &lt;impact on date, cost, scope&gt;<br><br><span class='accent'>WATCH</span> &lt;signal + threshold&gt;<br><span class='accent'>OWNER</span> &lt;one name&gt;<br><span class='accent'>RESPONSE</span> &lt;first action&gt;<br><span class='accent'>APPROVED BY</span> &lt;who&gt;</p></div><p style='margin-top:40px'>If you can’t write the WATCH line, you don’t understand the risk yet.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:38px'>Ratings go stale. A trigger tells you <span class='accent'>when</span> a risk is no longer hypothetical.</p><hr><p style='font-size:38px'>Agree the response before you need it — that’s when decisions are cheapest.</p><hr><p style='font-size:38px'>In weekly reviews, check triggers, not ratings.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>How many risks on your register have a trigger someone actually watches?</h2><p style='margin-top:30px'>Pick the top three. Write the WATCH line this week.</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next risk review.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
