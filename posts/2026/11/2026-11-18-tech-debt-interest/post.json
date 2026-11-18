@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-18",
+  "pillar": "Technology & Architecture",
+  "headline": "Not all technical debt is worth paying. Pay the debt that charges interest.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Architecture · Tech debt",
+      "offset": 210,
+      "html": "<h1>Not all technical debt is worth paying.</h1><h1 class='accent' style='margin-top:24px;font-size:96px'>Pay the debt that charges interest.</h1><p style='margin-top:56px;max-width:800px'>How to tell the difference — and how to make the case in the language of delivery.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>A familiar backlog</div><h2>The cleanup list that never gets prioritised.</h2><p>Every team keeps one: the modules engineers dislike, ranked by how ugly they are.</p><hr><p>Product sees no customer value and says “next quarter.” The list grows. Engineers stop raising it — and the real problem hides among the cosmetic ones.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>Principal vs. interest</h2><p style='color:#0E0E0E'><span class='mono accent'>Principal</span> — what it would cost to fix the code properly.</p><hr><p style='color:#0E0E0E'><span class='mono accent'>Interest</span> — the extra cost you pay <em>every time</em> you touch it: slower changes, more bugs, longer reviews.</p><hr><p>Ugly code nobody changes charges almost no interest. Ward Cunningham’s original 1992 metaphor was about exactly this cost of continuing to work on not-quite-right code.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2>Map debt on two axes</h2><svg width='850' height='760' viewBox='0 0 850 760'><g font-family='Plex Mono'><rect x='470' y='40' width='360' height='290' fill='#2F5FE8' fill-opacity='0.10'/><line x1='110' y1='620' x2='830' y2='620' stroke='#0E0E0E' stroke-width='3'/><line x1='110' y1='620' x2='110' y2='40' stroke='#0E0E0E' stroke-width='3'/><line x1='470' y1='40' x2='470' y2='620' stroke='#D4D4D0' stroke-width='2' stroke-dasharray='6 8'/><line x1='110' y1='330' x2='830' y2='330' stroke='#D4D4D0' stroke-width='2' stroke-dasharray='6 8'/><text x='130' y='130' font-size='30' fill='#0E0E0E' font-weight='500'>Contain it</text><text x='130' y='170' font-size='23' fill='#6B6B6B'>painful, rarely</text><text x='130' y='200' font-size='23' fill='#6B6B6B'>touched</text><text x='490' y='130' font-size='30' fill='#2F5FE8' font-weight='500'>Pay down now</text><text x='490' y='170' font-size='23' fill='#2F5FE8'>painful, changed</text><text x='490' y='200' font-size='23' fill='#2F5FE8'>all the time</text><text x='130' y='420' font-size='30' fill='#0E0E0E' font-weight='500'>Ignore</text><text x='130' y='460' font-size='23' fill='#6B6B6B'>easy, rarely</text><text x='130' y='490' font-size='23' fill='#6B6B6B'>touched</text><text x='490' y='420' font-size='30' fill='#0E0E0E' font-weight='500'>Keep it clean</text><text x='490' y='460' font-size='23' fill='#6B6B6B'>easy, changed</text><text x='490' y='490' font-size='23' fill='#6B6B6B'>often</text><text x='470' y='670' font-size='22' fill='#6B6B6B' text-anchor='middle' letter-spacing='2'>HOW OFTEN IT CHANGES →</text><text x='80' y='330' font-size='22' fill='#6B6B6B' text-anchor='middle' letter-spacing='2' transform='rotate(-90 80 330)'>PAIN PER CHANGE →</text><text x='110' y='735' font-size='22' fill='#6B6B6B'>Change frequency comes from git history.</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Illustrative example",
+      "offset": 110,
+      "html": "<h2>Three debts. One worth paying.</h2><p class='mono' style='font-size:27px;color:#0E0E0E'>Legacy PDF exporter</p><p style='font-size:30px'>Ugly, untested. Changed twice a year. → <span class='mono' style='font-size:26px'>CONTAIN</span></p><hr style='margin:28px 0'><p class='mono' style='font-size:27px;color:#0E0E0E'>Old admin screens</p><p style='font-size:30px'>Dated, but simple. Rarely touched. → <span class='mono' style='font-size:26px'>IGNORE</span></p><hr style='margin:28px 0'><p class='mono accent' style='font-size:27px'>Pricing rules engine</p><p style='font-size:30px'>Changed in most sprints. Each change needs days of manual regression and still ships bugs. → <span class='mono accent' style='font-size:26px'>PAY DOWN NOW</span></p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 120,
+      "html": "<h2>Make the case in delivery terms</h2><div style='border:2px solid #0E0E0E;background:#F7F7F5;padding:40px 46px'><p class='mono' style='font-size:27px;line-height:1.7;color:#0E0E0E'><span class='accent'>AREA</span> &lt;module or service&gt;<br><span class='accent'>CHANGES</span> &lt;commits or tickets last quarter&gt;<br><span class='accent'>INTEREST</span> &lt;extra days per change, bugs&gt;<br><span class='accent'>FIX</span> &lt;smallest paydown that cuts the interest&gt;<br><span class='accent'>PAYBACK</span> &lt;sprints until it pays for itself&gt;</p></div><p style='margin-top:36px'>“It’s messy” loses the argument. “It costs us two days on every pricing change” usually wins it.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:38px'>Rank debt by the interest it charges, not by how ugly it looks.</p><hr><p style='font-size:38px'>Interest only accrues where code changes. Let git history tell you where.</p><hr><p style='font-size:38px'>Pay down in slices, inside the feature work that already touches the area.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>Which part of your codebase charges the most interest?</h2><p style='margin-top:30px'>And does your backlog know it — in days, not adjectives?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next planning session.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
