@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-19",
+  "pillar": "Leadership",
+  "headline": "Your team isn't escalating too much. Nobody told them which decisions are theirs.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Leadership · Delegation",
+      "offset": 170,
+      "html": "<h1 style='font-size:104px'>Your team isn’t escalating too much.</h1><h1 class='accent' style='margin-top:28px;font-size:80px'>Nobody told them which decisions are theirs.</h1><p style='margin-top:52px;max-width:800px'>Delegation isn’t on or off. It has levels — and each decision needs one.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>The bottleneck you can’t see</div><h2>Every “quick question” lands on you.</h2><p>Which library. Whether to roll back. Can we drop this story. The team is capable — but the answers keep coming from one person.</p><hr><p>You take two days off and decisions queue up. That isn’t a skills problem. It’s an undefined boundary.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>Delegate decisions, not tasks</h2><p style='color:#0E0E0E'>“You own the API” is vague. Does that include the database? The deadline? The vendor?</p><hr><p style='color:#0E0E0E'>Clarity comes from naming each <span class='mono accent'>decision area</span> and agreeing a <span class='mono accent'>level</span> for it — how much is decided by you, and how much by the team.</p><hr><p>Jurgen Appelo’s Management 3.0 model describes seven such levels.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2>Seven levels of delegation</h2><svg width='850' height='840' viewBox='0 0 850 840'><g font-family='Plex Mono'><text x='520' y='28' font-size='20' fill='#6B6B6B' letter-spacing='2'>MANAGER</text><text x='850' y='28' font-size='20' fill='#2F5FE8' letter-spacing='2' text-anchor='end'>TEAM</text><rect x='0' y='60' width='56' height='56' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='98' font-size='28' text-anchor='middle' fill='#0E0E0E' font-weight='500'>1</text><text x='80' y='84' font-size='30' fill='#0E0E0E' font-weight='500'>Tell</text><text x='80' y='116' font-size='23' fill='#6B6B6B'>I decide, then inform you</text><rect x='520' y='74' width='330' height='28' fill='#D4D4D0'/><rect x='0' y='164' width='56' height='56' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='202' font-size='28' text-anchor='middle' fill='#0E0E0E' font-weight='500'>2</text><text x='80' y='188' font-size='30' fill='#0E0E0E' font-weight='500'>Sell</text><text x='80' y='220' font-size='23' fill='#6B6B6B'>I decide, then explain why</text><rect x='520' y='178' width='275' height='28' fill='#D4D4D0'/><rect x='795' y='178' width='55' height='28' fill='#2F5FE8' fill-opacity='0.45'/><rect x='0' y='268' width='56' height='56' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='306' font-size='28' text-anchor='middle' fill='#0E0E0E' font-weight='500'>3</text><text x='80' y='292' font-size='30' fill='#0E0E0E' font-weight='500'>Consult</text><text x='80' y='324' font-size='23' fill='#6B6B6B'>I ask your input, then decide</text><rect x='520' y='282' width='220' height='28' fill='#D4D4D0'/><rect x='740' y='282' width='110' height='28' fill='#2F5FE8' fill-opacity='0.45'/><rect x='0' y='372' width='56' height='56' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='410' font-size='28' text-anchor='middle' fill='#0E0E0E' font-weight='500'>4</text><text x='80' y='396' font-size='30' fill='#0E0E0E' font-weight='500'>Agree</text><text x='80' y='428' font-size='23' fill='#6B6B6B'>We decide together</text><rect x='520' y='386' width='165' height='28' fill='#D4D4D0'/><rect x='685' y='386' width='165' height='28' fill='#2F5FE8' fill-opacity='0.45'/><rect x='0' y='476' width='56' height='56' fill='#2F5FE8' stroke='#2F5FE8' stroke-width='2'/><text x='28' y='514' font-size='28' text-anchor='middle' fill='#F7F7F5' font-weight='500'>5</text><text x='80' y='500' font-size='30' fill='#2F5FE8' font-weight='500'>Advise</text><text x='80' y='532' font-size='23' fill='#6B6B6B'>I advise, you decide</text><rect x='520' y='490' width='110' height='28' fill='#D4D4D0'/><rect x='630' y='490' width='220' height='28' fill='#2F5FE8' fill-opacity='1'/><rect x='0' y='580' width='56' height='56' fill='#2F5FE8' stroke='#2F5FE8' stroke-width='2'/><text x='28' y='618' font-size='28' text-anchor='middle' fill='#F7F7F5' font-weight='500'>6</text><text x='80' y='604' font-size='30' fill='#2F5FE8' font-weight='500'>Inquire</text><text x='80' y='636' font-size='23' fill='#6B6B6B'>You decide, then tell me</text><rect x='520' y='594' width='55' height='28' fill='#D4D4D0'/><rect x='575' y='594' width='275' height='28' fill='#2F5FE8' fill-opacity='1'/><rect x='0' y='684' width='56' height='56' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='28' y='722' font-size='28' text-anchor='middle' fill='#0E0E0E' font-weight='500'>7</text><text x='80' y='708' font-size='30' fill='#0E0E0E' font-weight='500'>Delegate</text><text x='80' y='740' font-size='23' fill='#6B6B6B'>You decide, no report needed</text><rect x='520' y='698' width='330' height='28' fill='#2F5FE8' fill-opacity='0.45'/><text x='0' y='812' font-size='22' fill='#6B6B6B'>Many day-to-day delivery calls can sit at 5 or 6.</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Illustrative example",
+      "offset": 110,
+      "html": "<h2>One team’s delegation board</h2><div style='display:flex;justify-content:space-between;align-items:baseline;gap:24px'><p style='font-size:31px;color:#0E0E0E;max-width:560px'>Library choice inside the approved stack</p><span class='mono accent' style='font-size:25px;white-space:nowrap'>7 · DELEGATE</span></div><hr style='margin:22px 0'><div style='display:flex;justify-content:space-between;align-items:baseline;gap:24px'><p style='font-size:31px;color:#0E0E0E;max-width:560px'>Rollback during an incident</p><span class='mono accent' style='font-size:25px;white-space:nowrap'>6 · INQUIRE</span></div><hr style='margin:22px 0'><div style='display:flex;justify-content:space-between;align-items:baseline;gap:24px'><p style='font-size:31px;color:#0E0E0E;max-width:560px'>Sprint scope trade-offs</p><span class='mono accent' style='font-size:25px;white-space:nowrap'>5 · ADVISE</span></div><hr style='margin:22px 0'><div style='display:flex;justify-content:space-between;align-items:baseline;gap:24px'><p style='font-size:31px;color:#0E0E0E;max-width:560px'>Hiring a new engineer</p><span class='mono' style='font-size:25px;white-space:nowrap'>4 · AGREE</span></div><hr style='margin:22px 0'><div style='display:flex;justify-content:space-between;align-items:baseline;gap:24px'><p style='font-size:31px;color:#0E0E0E;max-width:560px'>Delivery date promised to the client</p><span class='mono' style='font-size:25px;white-space:nowrap'>3 · CONSULT</span></div><hr style='margin:22px 0'><div style='display:flex;justify-content:space-between;align-items:baseline;gap:24px'><p style='font-size:31px;color:#0E0E0E;max-width:560px'>Team restructure</p><span class='mono' style='font-size:25px;white-space:nowrap'>2 · SELL</span></div><p style='margin-top:40px;font-size:28px;color:#6B6B6B'>Illustrative. Your levels will differ — the point is that they’re written down.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 120,
+      "html": "<h2>Set it up in one 45-minute session</h2><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:28px;line-height:1.45'>01</span><p style='font-size:32px'><b style='font-family:Space Grotesk;color:#0E0E0E'>List</b> the ten decisions that reached you most last month. Your chat history knows.</p></div><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:28px;line-height:1.45'>02</span><p style='font-size:32px'><b style='font-family:Space Grotesk;color:#0E0E0E'>Vote</b> privately: each person picks a level, then everyone reveals at once.</p></div><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:28px;line-height:1.45'>03</span><p style='font-size:32px'><b style='font-family:Space Grotesk;color:#0E0E0E'>Discuss</b> the widest gaps. That’s where today’s friction lives.</p></div><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:28px;line-height:1.45'>04</span><p style='font-size:32px'><b style='font-family:Space Grotesk;color:#0E0E0E'>Publish</b> the board where the team already works.</p></div><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:28px;line-height:1.45'>05</span><p style='font-size:32px'><b style='font-family:Space Grotesk;color:#0E0E0E'>Redirect</b> escalations with one question: “What level did we agree?”</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:38px'>Delegation is set per decision, not per person.</p><hr><p style='font-size:38px'>Escalation volume is a design signal. Look at the boundary before the people.</p><hr><p style='font-size:38px'>Agree the level before the decision arrives — not in the middle of it.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>Which decision keeps reaching you that shouldn’t?</h2><p style='margin-top:30px'>And what level would you give it if you wrote it down today?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next team retro.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
