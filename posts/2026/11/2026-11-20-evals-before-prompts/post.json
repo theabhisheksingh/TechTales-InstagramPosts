@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-20",
+  "pillar": "AI in Engineering",
+  "headline": "You fixed the prompt. What did you break?",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "AI in Engineering · Evals",
+      "offset": 190,
+      "html": "<h1>You fixed the prompt.</h1><h1 class='accent' style='margin-top:28px;font-size:96px'>What did you break?</h1><p style='margin-top:56px;max-width:820px'>An AI feature without an eval set is a codebase without tests. Every change is a guess.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>The vibe check</div><h2>Five examples. Looks better. Ship it.</h2><p>A customer complains. Someone edits the prompt, tries it on the case that failed plus a few others, and it reads better.</p><hr><p>Two weeks later a different customer complains about something that used to work. Nobody can say when it broke — or which change did it.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>An eval set is a regression suite for behaviour</h2><p style='color:#0E0E0E'>A fixed set of real inputs, each with a clear definition of a good answer.</p><hr><p style='color:#0E0E0E'>You run it on <span class='mono accent'>every</span> change — prompt, model version, retrieval, temperature — and compare against the last accepted score.</p><hr><p>Outputs vary from run to run, so you judge the score across the set, not any single answer.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 110,
+      "html": "<h2>The change gate</h2><svg width='850' height='800' viewBox='0 0 850 800'><g font-family='Plex Mono'><rect x='0' y='0' width='850' height='110' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='32' y='48' font-size='30' fill='#0E0E0E' font-weight='500'>Change</text><text x='32' y='84' font-size='23' fill='#6B6B6B'>prompt · model · retrieval · settings</text><line x1='425' y1='110' x2='425' y2='168' stroke='#6B6B6B' stroke-width='2'/><polygon points='415,160 435,160 425,176' fill='#6B6B6B'/><rect x='0' y='180' width='850' height='110' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='32' y='228' font-size='30' fill='#0E0E0E' font-weight='500'>Run the eval set</text><text x='32' y='264' font-size='23' fill='#6B6B6B'>same real cases, every time</text><line x1='425' y1='290' x2='425' y2='348' stroke='#6B6B6B' stroke-width='2'/><polygon points='415,340 435,340 425,356' fill='#6B6B6B'/><rect x='0' y='360' width='850' height='110' fill='#2F5FE8' fill-opacity='0.08' stroke='#2F5FE8' stroke-width='2'/><text x='32' y='408' font-size='30' fill='#2F5FE8' font-weight='500'>Compare with baseline</text><text x='32' y='444' font-size='23' fill='#6B6B6B'>per criterion, not one total</text><line x1='212' y1='470' x2='212' y2='528' stroke='#6B6B6B' stroke-width='2'/><polygon points='202,520 222,520 212,536' fill='#6B6B6B'/><line x1='638' y1='470' x2='638' y2='528' stroke='#6B6B6B' stroke-width='2'/><polygon points='628,520 648,520 638,536' fill='#6B6B6B'/><rect x='0' y='540' width='400' height='130' fill='#2F5FE8' stroke='#2F5FE8' stroke-width='2'/><text x='28' y='590' font-size='28' fill='#F7F7F5' font-weight='500'>No regression</text><text x='28' y='630' font-size='23' fill='#F7F7F5'>ship · new baseline</text><rect x='450' y='540' width='400' height='130' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='478' y='590' font-size='28' fill='#0E0E0E' font-weight='500'>Regression</text><text x='478' y='630' font-size='23' fill='#6B6B6B'>block · read failures</text><text x='0' y='740' font-size='23' fill='#6B6B6B'>Every production bug becomes a new case.</text><text x='0' y='776' font-size='23' fill='#6B6B6B'>The set grows with the product.</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Illustrative example",
+      "offset": 110,
+      "html": "<h2>A support-reply prompt, v1 → v2</h2><p style='font-size:30px;margin-bottom:30px'>Goal of v2: a warmer tone. Run against 50 past tickets.</p><div style='display:flex;justify-content:space-between;font:500 22px/1 Plex Mono;letter-spacing:.06em;color:#6B6B6B'><span style='flex:1'>CRITERION</span><span style='width:130px;text-align:right'>V1</span><span style='width:130px;text-align:right'>V2</span></div><hr style='margin:20px 0'><div style='display:flex;justify-content:space-between;align-items:baseline'><p style='flex:1;font-size:31px;color:#0E0E0E'>Tone meets rubric</p><span class='mono' style='width:130px;text-align:right;font-size:28px'>38/50</span><span class='mono accent' style='width:130px;text-align:right;font-size:28px'>47/50</span></div><hr style='margin:20px 0'><div style='display:flex;justify-content:space-between;align-items:baseline'><p style='flex:1;font-size:31px;color:#0E0E0E'>Refund policy stated correctly</p><span class='mono' style='width:130px;text-align:right;font-size:28px'>49/50</span><span class='mono' style='width:130px;text-align:right;font-size:28px;color:#0E0E0E;font-weight:500'>41/50</span></div><hr style='margin:20px 0'><div style='display:flex;justify-content:space-between;align-items:baseline'><p style='flex:1;font-size:31px;color:#0E0E0E'>Ticket ID included</p><span class='mono' style='width:130px;text-align:right;font-size:28px'>50/50</span><span class='mono' style='width:130px;text-align:right;font-size:28px'>50/50</span></div><hr style='margin:20px 0'><p style='font-size:32px;color:#0E0E0E;margin-top:16px'>Verdict: <b style='font-family:Space Grotesk'>blocked.</b> Friendlier, and wrong about money eight more times.</p><p style='margin-top:28px;font-size:27px;color:#6B6B6B'>Illustrative numbers. Five hand-picked examples would likely have missed it.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 120,
+      "html": "<h2>Start this week</h2><p style='font-size:31px;margin-bottom:34px'>Begin with 30–50 cases from real traffic, including the ugly ones. Then grade each criterion with the cheapest check that works:</p><div style='display:flex;gap:28px;margin-bottom:28px'><span class='mono accent' style='font-size:26px;line-height:1.5;width:150px;flex:none'>CODE</span><p style='font-size:31px'>Exact match, contains, valid JSON, length. Fast and objective.</p></div><div style='display:flex;gap:28px;margin-bottom:28px'><span class='mono accent' style='font-size:26px;line-height:1.5;width:150px;flex:none'>MODEL</span><p style='font-size:31px'>A rubric scored by an LLM. Check it agrees with human labels first.</p></div><div style='display:flex;gap:28px'><span class='mono accent' style='font-size:26px;line-height:1.5;width:150px;flex:none'>HUMAN</span><p style='font-size:31px'>Slow and costly. Use it to calibrate the others and to review failures.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 150,
+      "html": "<h2>Remember this</h2><p style='font-size:38px'>Write down what “good” means before you tune anything.</p><hr><p style='font-size:38px'>Score per criterion. A better total can hide a new failure.</p><hr><p style='font-size:38px'>Treat a model upgrade like a dependency upgrade: run the suite first.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:80px'>How does your team decide a prompt change is safe to ship?</h2><p style='margin-top:30px'>Test set, review, or a quick look and hope?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this before your next prompt change.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
