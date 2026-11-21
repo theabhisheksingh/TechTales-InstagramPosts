@@ -16,6 +16,7 @@ Published posts only. Ready-made but unpublished posts live in `drafts/`.
 | 2026-11-18 | Technology & Architecture | Not all technical debt is worth paying. Pay the debt that charges interest. | [posts/2026/11/2026-11-18-tech-debt-interest](posts/2026/11/2026-11-18-tech-debt-interest) |
 | 2026-11-19 | Leadership | Your team isn't escalating too much. Nobody told them which decisions are theirs. | [posts/2026/11/2026-11-19-delegation-levels](posts/2026/11/2026-11-19-delegation-levels) |
 | 2026-11-20 | AI in Engineering | You fixed the prompt. What did you break? | [posts/2026/11/2026-11-20-evals-before-prompts](posts/2026/11/2026-11-20-evals-before-prompts) |
+| 2026-11-21 | Product & Startups | Say yes to the customer. Say no to the fork. | [posts/2026/11/2026-11-21-configuration-not-customization](posts/2026/11/2026-11-21-configuration-not-customization) |
 
 ## Drafts
 

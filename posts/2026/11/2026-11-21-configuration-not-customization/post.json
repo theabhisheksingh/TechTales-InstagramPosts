@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-21",
+  "pillar": "Product & Startups",
+  "headline": "Say yes to the customer. Say no to the fork.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Product & Startups · SaaS",
+      "offset": 190,
+      "html": "<h1>Say yes to the customer.</h1><h1 class='accent' style='margin-top:28px;font-size:96px'>Say no to the fork.</h1><p style='margin-top:56px;max-width:820px'>In early SaaS, every custom build feels like revenue. Most become a second product you maintain for one customer.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 150,
+      "html": "<div class='kicker'>The big logo</div><h2>“We’ll sign, if it works our way.”</h2><p>Your largest prospect wants a different approval flow. Sales has a quarter-end deadline. Someone suggests a branch, or an <span class='mono accent' style='font-size:30px'>if</span> on their customer ID.</p><hr><p>It ships. Then the next customer asks for their version. A year later every release is tested several ways, and nobody can say which behaviour is the product.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>Customization is a cost. Configuration is a product.</h2><p style='color:#0E0E0E'><b style='font-family:Space Grotesk'>Customization</b> changes the product for one customer. You carry that code in every release, for as long as they stay.</p><hr><p style='color:#0E0E0E'><b style='font-family:Space Grotesk'>Configuration</b> is a capability any customer can switch on. One code path, many behaviours.</p><hr><p>The test: would a second customer ever want this switch?</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2 style='margin-bottom:34px'>The request ladder</h2><svg width='850' height='790' viewBox='0 0 850 790'><g font-family='Plex Mono'><rect x='0' y='0' width='850' height='112' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='30' y='56' font-size='30' fill='#0E0E0E' font-weight='500'>01</text><text x='100' y='50' font-size='29' fill='#0E0E0E' font-weight='500'>Already possible</text><text x='100' y='86' font-size='23' fill='#6B6B6B'>show them how it works today</text><line x1='425' y1='112' x2='425' y2='136' stroke='#6B6B6B' stroke-width='2'/><polygon points='415,130 435,130 425,144' fill='#6B6B6B'/><rect x='0' y='146' width='850' height='112' fill='#2F5FE8' fill-opacity='0.08' stroke='#2F5FE8' stroke-width='2'/><text x='30' y='202' font-size='30' fill='#2F5FE8' font-weight='500'>02</text><text x='100' y='196' font-size='29' fill='#2F5FE8' font-weight='500'>Configuration</text><text x='100' y='232' font-size='23' fill='#6B6B6B'>a per-customer setting, safe default</text><line x1='425' y1='258' x2='425' y2='282' stroke='#6B6B6B' stroke-width='2'/><polygon points='415,276 435,276 425,290' fill='#6B6B6B'/><rect x='0' y='292' width='850' height='112' fill='#2F5FE8' fill-opacity='0.08' stroke='#2F5FE8' stroke-width='2'/><text x='30' y='348' font-size='30' fill='#2F5FE8' font-weight='500'>03</text><text x='100' y='342' font-size='29' fill='#2F5FE8' font-weight='500'>Extension point</text><text x='100' y='378' font-size='23' fill='#6B6B6B'>API, webhook or custom field</text><line x1='425' y1='404' x2='425' y2='428' stroke='#6B6B6B' stroke-width='2'/><polygon points='415,422 435,422 425,436' fill='#6B6B6B'/><rect x='0' y='438' width='850' height='112' fill='none' stroke='#0E0E0E' stroke-width='2'/><text x='30' y='494' font-size='30' fill='#0E0E0E' font-weight='500'>04</text><text x='100' y='488' font-size='29' fill='#0E0E0E' font-weight='500'>Roadmap feature</text><text x='100' y='524' font-size='23' fill='#6B6B6B'>build it once, for everyone</text><line x1='425' y1='550' x2='425' y2='574' stroke='#6B6B6B' stroke-width='2'/><polygon points='415,568 435,568 425,582' fill='#6B6B6B'/><rect x='0' y='584' width='850' height='112' fill='none' stroke='#6B6B6B' stroke-width='2' stroke-dasharray='10 8'/><text x='30' y='640' font-size='30' fill='#6B6B6B' font-weight='500'>05</text><text x='100' y='634' font-size='29' fill='#6B6B6B' font-weight='500'>Fork</text><text x='100' y='670' font-size='23' fill='#6B6B6B'>last resort · priced as services</text><text x='0' y='750' font-size='23' fill='#2F5FE8'>Most requests should stop at 02 or 03.</text><text x='0' y='786' font-size='23' fill='#6B6B6B'>Climb only as far as the problem needs.</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Illustrative example",
+      "offset": 110,
+      "html": "<h2>One request, two answers</h2><p style='font-size:31px;color:#0E0E0E;margin-bottom:8px'>“Invoices above a set amount need CFO sign-off before they go out.”</p><hr style='margin:28px 0'><div class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em;margin-bottom:14px'>ANSWER A · CUSTOM</div><p style='font-size:31px'><span class='mono' style='font-size:27px;color:#0E0E0E'>if customer == “acme”</span> → ships fast. Every release now carries an Acme-only path to test.</p><hr style='margin:28px 0'><div class='mono accent' style='font-size:24px;letter-spacing:.06em;margin-bottom:14px'>ANSWER B · CONFIGURATION</div><p style='font-size:31px'>Approval rules per account: threshold plus approver role. Takes a little longer. The next customers set it up themselves.</p><p style='margin-top:30px;font-size:27px;color:#6B6B6B'>Illustrative scenario.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 120,
+      "html": "<h2>Before you say yes, ask</h2><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:30px;line-height:1.45;flex:none'>01</span><p style='font-size:31px'><b style='font-family:Space Grotesk'>What problem sits behind it?</b> The requested solution is often not the one they need.</p></div><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:30px;line-height:1.45;flex:none'>02</span><p style='font-size:31px'><b style='font-family:Space Grotesk'>Who else has it?</b> Check support tickets and lost deals, not just this account.</p></div><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:30px;line-height:1.45;flex:none'>03</span><p style='font-size:31px'><b style='font-family:Space Grotesk'>Can it be a setting?</b> With a default that changes nothing for everyone else.</p></div><div style='display:flex;gap:28px;margin-bottom:30px'><span class='mono accent' style='font-size:30px;line-height:1.45;flex:none'>04</span><p style='font-size:31px'><b style='font-family:Space Grotesk'>If it must be custom,</b> who maintains it, for how long, and who pays?</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 150,
+      "html": "<h2>Three rules</h2><p style='font-size:38px'>Never branch on a customer ID.</p><hr><p style='font-size:38px'>Ask for the problem, not the solution.</p><hr><p style='font-size:38px'>If it’s truly custom, price the maintenance, not just the build.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:76px'>What’s the most expensive “just this once” your product ever shipped?</h2><p style='margin-top:30px'>A fork, a flag, a hard-coded customer?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next big-logo request.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
