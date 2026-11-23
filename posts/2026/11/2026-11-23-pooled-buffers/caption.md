@@ -8,13 +8,13 @@
 
 Padding every task doesn't protect your deadline. It gets spent.
 
-Everyone on the plan added a margin, and the project still ran late. That is not bad luck. Safety hidden inside individual estimates tends to disappear: tasks with plenty of time start late, work expands to fill the time it was given, and while delays pass straight downstream, early finishes are seldom reported or used. Each margin protects one task. None of them protects the date.
+Everyone on the plan added a margin, and the project still ran late. Safety hidden inside individual estimates tends to disappear: tasks with plenty of time start late, work expands to fill the time it was given, and while delays pass straight downstream, early finishes are seldom reported or used. Each margin protects one task. None of them protects the date.
 
 The alternative is to move the safety out of the tasks and into one shared buffer. Estimate each task at what it should take if things go reasonably well, then put the safety you removed at the end of the chain as a visible project buffer. Not every task overruns at once, so a pooled buffer can be smaller than the sum of the individual pads and still give more protection where it counts. This is the core idea behind Critical Chain Project Management, introduced by Eliyahu Goldratt in his 1997 book Critical Chain.
 
 In an illustrative five-task plan: padded, each task is 6 days of work plus 4 days of margin, 50 days in total. Pooled, it is 30 days of work plus a 10-day shared buffer, 40 days in total, and a late task can draw on all ten days instead of its own four.
 
-The practical change is in how you report. Stop tracking whether each task hit its estimate and compare buffer used with chain completed. Used less buffer than progress made? On track. Roughly equal? Prepare a recovery option. More buffer used than progress made? Act now: cut scope, add help or reset the date while it is still cheap.
+The practical change is in how you report. Compare buffer used with chain completed, not each task against its estimate. Used less buffer than progress made? On track. Roughly equal? Prepare a recovery option. More buffer used than progress made? Act now: cut scope, add help or reset the date.
 
 Before you pool the padding: stop punishing missed task estimates, or people will quietly pad again; start tasks when they are ready and hand off when done, so early finishes actually move the next task; and limit multitasking on the critical chain, because switching spends buffer too.
 
