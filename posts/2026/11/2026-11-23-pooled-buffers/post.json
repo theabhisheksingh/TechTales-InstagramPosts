@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-23",
+  "pillar": "Project Management",
+  "headline": "Padding every task doesn't protect your deadline. It gets spent.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Project Management · Planning",
+      "offset": 170,
+      "html": "<h1>Padding every task doesn’t protect your deadline.</h1><h1 class='accent' style='margin-top:28px'>It gets spent.</h1><p style='margin-top:56px;max-width:820px'>Safety hidden inside each estimate rarely survives to the end of the plan. Safety you can see, and share, does.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 130,
+      "html": "<div class='kicker'>Where the padding goes</div><h2>Everyone added a margin. The project still ran late.</h2><p style='font-size:32px'><span class='mono accent' style='font-size:28px'>01</span>&nbsp; <b style='font-family:Space Grotesk'>Late starts.</b> Plenty of time, so the task waits behind something else.</p><p style='font-size:32px;margin-top:22px'><span class='mono accent' style='font-size:28px'>02</span>&nbsp; <b style='font-family:Space Grotesk'>Work expands.</b> A task with ten days rarely ends on day six.</p><p style='font-size:32px;margin-top:22px'><span class='mono accent' style='font-size:28px'>03</span>&nbsp; <b style='font-family:Space Grotesk'>Early finishes vanish.</b> Delays pass downstream. Early finishes are seldom reported.</p><hr style='margin:30px 0'><p>Each margin protects one task. None of them protects the date.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<h2>Move the safety out of the tasks and into one shared buffer.</h2><p>Estimate each task at what it should take if things go reasonably well.</p><hr><p>Put the safety you removed at the end of the chain, as a visible <span class='accent'>project buffer</span>.</p><hr><p style='color:#0E0E0E'>Not every task overruns at once. A pooled buffer can be smaller than the sum of the pads, and still protect more.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2 style='margin-bottom:24px'>Same work. Different place for the safety.</h2><svg width='850' height='760' viewBox='0 0 850 760'><g font-family='Plex Mono'><text x='0' y='40' font-size='26' fill='#0E0E0E' font-weight='500'>A · Padding in every task</text><g stroke='#0E0E0E' stroke-width='2'><rect x='0' y='70' width='96' height='70' fill='none'/><rect x='96' y='70' width='64' height='70' fill='#D4D4D0'/><rect x='160' y='70' width='96' height='70' fill='none'/><rect x='256' y='70' width='64' height='70' fill='#D4D4D0'/><rect x='320' y='70' width='96' height='70' fill='none'/><rect x='416' y='70' width='64' height='70' fill='#D4D4D0'/><rect x='480' y='70' width='96' height='70' fill='none'/><rect x='576' y='70' width='64' height='70' fill='#D4D4D0'/><rect x='640' y='70' width='96' height='70' fill='none'/><rect x='736' y='70' width='64' height='70' fill='#D4D4D0'/></g><text x='0' y='180' font-size='22' fill='#6B6B6B'>5 tasks × (6 work + 4 pad)</text><text x='800' y='180' font-size='26' fill='#0E0E0E' text-anchor='end' font-weight='500'>50 days</text><text x='0' y='218' font-size='22' fill='#6B6B6B'>Each pad is private. Most get used up.</text><line x1='0' y1='270' x2='850' y2='270' stroke='#D4D4D0' stroke-width='2'/><text x='0' y='340' font-size='26' fill='#0E0E0E' font-weight='500'>B · One pooled buffer</text><g stroke='#0E0E0E' stroke-width='2' fill='none'><rect x='0' y='370' width='96' height='70'/><rect x='96' y='370' width='96' height='70'/><rect x='192' y='370' width='96' height='70'/><rect x='288' y='370' width='96' height='70'/><rect x='384' y='370' width='96' height='70'/></g><rect x='480' y='370' width='160' height='70' fill='#2F5FE8' fill-opacity='0.12' stroke='#2F5FE8' stroke-width='2'/><text x='560' y='414' font-size='22' fill='#2F5FE8' text-anchor='middle' font-weight='500'>buffer</text><text x='0' y='480' font-size='22' fill='#6B6B6B'>5 tasks × 6 work + 10 shared</text><text x='640' y='480' font-size='26' fill='#2F5FE8' text-anchor='end' font-weight='500'>40 days</text><text x='0' y='518' font-size='22' fill='#6B6B6B'>One visible buffer. Overruns draw from it.</text><line x1='0' y1='570' x2='850' y2='570' stroke='#D4D4D0' stroke-width='2'/><text x='0' y='630' font-size='26' fill='#2F5FE8' font-weight='500'>Shorter plan. More protection where it counts.</text><text x='0' y='672' font-size='22' fill='#6B6B6B'>A late task in B can borrow from all ten days.</text><text x='0' y='740' font-size='20' fill='#6B6B6B'>ILLUSTRATIVE NUMBERS</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Real-world example",
+      "offset": 130,
+      "html": "<div class='kicker'>Illustrative · data migration</div><h2>Day 21 of a 40-day plan.</h2><div class='mono' style='font-size:28px;line-height:1.75;border-top:2px solid #0E0E0E;border-bottom:2px solid #0E0E0E;padding:20px 0'><div style='display:flex;justify-content:space-between'><span>Chain complete</span><span>60%</span></div><div style='display:flex;justify-content:space-between'><span>Buffer used</span><span class='accent'>3 of 10 days</span></div></div><p style='margin-top:30px;font-size:32px'>Schema mapping overran by three days. In a padded plan, that is a quiet debate about whose margin it was.</p><p style='margin-top:20px;font-size:32px'>Here it is one honest line: <span style='color:#0E0E0E'>60% done, 30% of the buffer used. On track.</span></p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Report the buffer, not the tasks</h2><p style='font-size:31px;margin-bottom:24px'>Compare how much buffer is used with how much of the chain is done.</p><div style='display:grid;grid-template-columns:300px 1fr;row-gap:26px;column-gap:24px;align-items:baseline'><span class='mono' style='font-size:26px;color:#0E0E0E'>Buffer &lt; progress</span><p style='font-size:31px'><b style='font-family:Space Grotesk'>On track.</b> Leave the team alone.</p><span class='mono' style='font-size:26px;color:#0E0E0E'>Buffer ≈ progress</span><p style='font-size:31px'><b style='font-family:Space Grotesk'>Watch.</b> Prepare a recovery option.</p><span class='mono accent' style='font-size:26px'>Buffer &gt; progress</span><p style='font-size:31px'><b style='font-family:Space Grotesk' class='accent'>Act.</b> Cut scope, add help or reset the date now.</p></div><hr style='margin:30px 0'><p style='font-size:31px'>Sharper thresholds are a team choice. The habit that matters is checking the ratio every week.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 140,
+      "html": "<h2>Before you pool the padding</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>SAFETY FIRST</p><p style='font-size:34px;color:#0E0E0E'>Stop punishing missed task estimates.</p><p style='font-size:30px;margin-top:6px'>Otherwise people quietly pad again.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>FLOW</p><p style='font-size:34px;color:#0E0E0E'>Start when ready. Hand off when done.</p><p style='font-size:30px;margin-top:6px'>An early finish is only useful if it moves the next task.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>FOCUS</p><p style='font-size:34px;color:#0E0E0E'>Limit multitasking on the critical chain.</p><p style='font-size:30px;margin-top:6px'>Switching between tasks spends buffer too.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:76px'>Where does the safety live in your current plan?</h2><p style='margin-top:30px'>Hidden in every estimate, owned by one person, or visible to the whole team?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this for your next planning session.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
