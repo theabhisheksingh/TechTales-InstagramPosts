@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-24",
+  "pillar": "Leadership",
+  "headline": "\"Be more proactive\" isn't feedback. It's a verdict.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Leadership · Feedback",
+      "offset": 170,
+      "html": "<h1>“Be more proactive” isn’t feedback.</h1><h1 class='accent' style='margin-top:28px'>It’s a verdict.</h1><p style='margin-top:56px;max-width:820px'>Engineers can act on what they did. They can only argue with a label about who they are.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 120,
+      "html": "<div class='kicker'>Why vague feedback fails</div><h2>Three words. Three different meanings.</h2><p style='font-size:32px'>“Be more proactive” could mean:</p><p style='font-size:32px;margin-top:22px'><span class='mono accent' style='font-size:28px'>01</span>&nbsp; Raise risks before standup, not during it.</p><p style='font-size:32px;margin-top:18px'><span class='mono accent' style='font-size:28px'>02</span>&nbsp; Pick up tickets without being assigned.</p><p style='font-size:32px;margin-top:18px'><span class='mono accent' style='font-size:28px'>03</span>&nbsp; Talk to the client directly.</p><hr style='margin:30px 0'><p>The listener picks one, often the wrong one, and feels judged while doing it.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 150,
+      "html": "<div class='kicker'>Situation · Behaviour · Impact</div><h2>Describe a moment, not a person.</h2><p><b style='font-family:Space Grotesk'>Situation.</b> When and where it happened. Specific enough to recall.</p><hr style='margin:26px 0'><p><b style='font-family:Space Grotesk'>Behaviour.</b> What you saw or heard. A camera could record it.</p><hr style='margin:26px 0'><p><b style='font-family:Space Grotesk' class='accent'>Impact.</b> What it caused, for you, the team or the client.</p><hr style='margin:26px 0'><p style='font-size:28px;color:#6B6B6B'>The SBI model, from the Center for Creative Leadership.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2 style='margin-bottom:24px'>Facts first. Then ask.</h2><svg width='850' height='800' viewBox='0 0 850 800'><g font-family='Plex Mono'><g stroke='#0E0E0E' stroke-width='2' fill='none'><rect x='0' y='0' width='850' height='130'/><rect x='0' y='180' width='850' height='130'/><rect x='0' y='360' width='850' height='130'/></g><rect x='0' y='540' width='850' height='130' fill='#2F5FE8' fill-opacity='0.10' stroke='#2F5FE8' stroke-width='2'/><g stroke='#6B6B6B' stroke-width='2'><line x1='425' y1='130' x2='425' y2='170'/><line x1='425' y1='310' x2='425' y2='350'/><line x1='425' y1='490' x2='425' y2='530'/></g><g fill='#6B6B6B'><polygon points='417,166 433,166 425,178'/><polygon points='417,346 433,346 425,358'/><polygon points='417,526 433,526 425,538'/></g><text x='28' y='52' font-size='26' font-weight='500' fill='#0E0E0E'>S · SITUATION</text><text x='28' y='98' font-size='23' fill='#6B6B6B'>“In Tuesday’s client demo…”</text><text x='28' y='232' font-size='26' font-weight='500' fill='#0E0E0E'>B · BEHAVIOUR</text><text x='28' y='278' font-size='23' fill='#6B6B6B'>“…you flagged the API delay first…”</text><text x='28' y='412' font-size='26' font-weight='500' fill='#0E0E0E'>I · IMPACT</text><text x='28' y='458' font-size='23' fill='#6B6B6B'>“…so they adjusted their launch plan.”</text><text x='28' y='592' font-size='26' font-weight='500' fill='#2F5FE8'>THEN · ASK</text><text x='28' y='638' font-size='23' fill='#2F5FE8'>“How did that call feel from your side?”</text><line x1='0' y1='720' x2='850' y2='720' stroke='#D4D4D0' stroke-width='2'/><text x='0' y='770' font-size='22' fill='#6B6B6B'>Works for praise and correction alike.</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Real-world example",
+      "offset": 130,
+      "html": "<div class='kicker'>Illustrative · rewrite</div><h2>The same message, twice.</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>BEFORE</p><p style='font-size:33px;color:#0E0E0E'>“You need to be more proactive with stakeholders.”</p><hr style='margin:30px 0'><p class='mono accent' style='font-size:24px;letter-spacing:.06em'>AFTER</p><p style='font-size:32px;color:#0E0E0E'>“In last week’s release, you knew the migration would slip on Monday. The client heard on Thursday, from their own team. They have asked to review every timeline we send.”</p><p style='font-size:30px;margin-top:22px'>Now there is something specific to discuss, and to change.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Before your next 1:1, write it down</h2><div style='display:grid;grid-template-columns:70px 1fr;row-gap:28px;align-items:baseline'><span class='mono accent' style='font-size:28px'>01</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Name one moment.</b> If you cannot, you are not ready to give the feedback.</p><span class='mono accent' style='font-size:28px'>02</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Strip the adjectives.</b> “Careless” becomes “two failing tests merged”.</p><span class='mono accent' style='font-size:28px'>03</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>State the impact you saw.</b> Not the motive you assume.</p><span class='mono accent' style='font-size:28px'>04</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Ask, then listen.</b> Their context may change your view.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 140,
+      "html": "<h2>What makes it work</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>TIMING</p><p style='font-size:34px;color:#0E0E0E'>Give it within days, not at review time.</p><p style='font-size:30px;margin-top:6px'>Memory fades. So does the chance to adjust.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>BALANCE</p><p style='font-size:34px;color:#0E0E0E'>Use it for good work too.</p><p style='font-size:30px;margin-top:6px'>Specific praise tells people what to repeat.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>INTENT</p><p style='font-size:34px;color:#0E0E0E'>Impact is not intent.</p><p style='font-size:30px;margin-top:6px'>Describe the effect. Let them explain the reason.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:76px'>What’s the vaguest feedback you’ve ever received?</h2><p style='margin-top:30px'>And what would the SBI version have sounded like?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this before your next 1:1.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}

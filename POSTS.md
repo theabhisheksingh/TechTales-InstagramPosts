@@ -19,6 +19,7 @@ Published posts only. Ready-made but unpublished posts live in `drafts/`.
 | 2026-11-21 | Product & Startups | Say yes to the customer. Say no to the fork. | [posts/2026/11/2026-11-21-configuration-not-customization](posts/2026/11/2026-11-21-configuration-not-customization) |
 | 2026-11-22 | Technology & Architecture | Your client will retry. Make sure your API only charges once. | [posts/2026/11/2026-11-22-idempotent-retries](posts/2026/11/2026-11-22-idempotent-retries) |
 | 2026-11-23 | Project Management | Padding every task doesn't protect your deadline. It gets spent. | [posts/2026/11/2026-11-23-pooled-buffers](posts/2026/11/2026-11-23-pooled-buffers) |
+| 2026-11-24 | Leadership | "Be more proactive" isn't feedback. It's a verdict. | [posts/2026/11/2026-11-24-sbi-feedback](posts/2026/11/2026-11-24-sbi-feedback) |
 
 ## Drafts
 
