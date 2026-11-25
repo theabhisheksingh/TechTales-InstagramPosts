@@ -20,6 +20,7 @@ Published posts only. Ready-made but unpublished posts live in `drafts/`.
 | 2026-11-22 | Technology & Architecture | Your client will retry. Make sure your API only charges once. | [posts/2026/11/2026-11-22-idempotent-retries](posts/2026/11/2026-11-22-idempotent-retries) |
 | 2026-11-23 | Project Management | Padding every task doesn't protect your deadline. It gets spent. | [posts/2026/11/2026-11-23-pooled-buffers](posts/2026/11/2026-11-23-pooled-buffers) |
 | 2026-11-24 | Leadership | "Be more proactive" isn't feedback. It's a verdict. | [posts/2026/11/2026-11-24-sbi-feedback](posts/2026/11/2026-11-24-sbi-feedback) |
+| 2026-11-25 | AI in Engineering | Approve the action, not the answer. | [posts/2026/11/2026-11-25-gate-irreversible-actions](posts/2026/11/2026-11-25-gate-irreversible-actions) |
 
 ## Drafts
 

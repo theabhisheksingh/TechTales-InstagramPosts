@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-25",
+  "pillar": "AI in Engineering",
+  "headline": "Approve the action, not the answer.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "AI in Delivery · Agents",
+      "offset": 190,
+      "html": "<h1>Approve the action,</h1><h1 class='accent' style='margin-top:20px'>not the answer.</h1><p style='margin-top:56px;max-width:820px'>Reviewing everything an AI agent produces does not scale. Gating the few actions you cannot undo does.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 120,
+      "html": "<div class='kicker'>Two ways human-in-the-loop fails</div><h2>Too many approvals. Or none at all.</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>APPROVE EVERYTHING</p><p style='font-size:32px;color:#0E0E0E'>Forty prompts a day. By the tenth, people click yes without reading.</p><hr style='margin:30px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>APPROVE NOTHING</p><p style='font-size:32px;color:#0E0E0E'>Production credentials, a vague instruction, and nobody watching.</p><hr style='margin:30px 0'><p>Same result: no one is paying attention at the moment it matters.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 140,
+      "html": "<div class='kicker'>Two questions per tool</div><h2>Sort actions by cost of being wrong.</h2><p><b style='font-family:Space Grotesk'>Can it be undone?</b> A draft can be deleted. A sent email cannot.</p><hr style='margin:26px 0'><p><b style='font-family:Space Grotesk'>Who does it reach?</b> Your branch, or your customers.</p><hr style='margin:26px 0'><p>OWASP lists this as <span class='accent'>Excessive Agency</span>: too much functionality, permission or autonomy.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2 style='margin-bottom:24px'>Four zones, four rules.</h2><svg width='850' height='830' viewBox='0 0 850 830'><g font-family='Plex Mono'><text x='247' y='34' font-size='22' fill='#6B6B6B' text-anchor='middle'>STAYS WITH YOU</text><text x='652' y='34' font-size='22' fill='#6B6B6B' text-anchor='middle'>REACHES OTHERS</text><text transform='translate(22,220) rotate(-90)' font-size='22' fill='#6B6B6B' text-anchor='middle'>UNDOABLE</text><text transform='translate(22,560) rotate(-90)' font-size='22' fill='#6B6B6B' text-anchor='middle'>PERMANENT</text><g stroke='#0E0E0E' stroke-width='2' fill='none'><rect x='50' y='60' width='395' height='320'/><rect x='455' y='60' width='395' height='320'/><rect x='50' y='400' width='395' height='320'/></g><rect x='455' y='400' width='395' height='320' fill='#2F5FE8' fill-opacity='0.10' stroke='#2F5FE8' stroke-width='2'/><text x='76' y='114' font-size='26' font-weight='500' fill='#0E0E0E'>RUN FREELY</text><text x='76' y='174' font-size='22' fill='#6B6B6B'>read code and logs</text><text x='76' y='214' font-size='22' fill='#6B6B6B'>summarise tickets</text><text x='76' y='254' font-size='22' fill='#6B6B6B'>draft a pull request</text><text x='481' y='114' font-size='26' font-weight='500' fill='#0E0E0E'>RUN + NOTIFY</text><text x='481' y='174' font-size='22' fill='#6B6B6B'>update a ticket</text><text x='481' y='214' font-size='22' fill='#6B6B6B'>comment on a PR</text><text x='481' y='254' font-size='22' fill='#6B6B6B'>post to team channel</text><text x='76' y='454' font-size='26' font-weight='500' fill='#0E0E0E'>SNAPSHOT FIRST</text><text x='76' y='514' font-size='22' fill='#6B6B6B'>rewrite local files</text><text x='76' y='554' font-size='22' fill='#6B6B6B'>reset a dev database</text><text x='76' y='594' font-size='22' fill='#6B6B6B'>delete a local branch</text><text x='481' y='454' font-size='26' font-weight='500' fill='#2F5FE8'>HUMAN APPROVES</text><text x='481' y='514' font-size='22' fill='#2F5FE8'>deploy to production</text><text x='481' y='554' font-size='22' fill='#2F5FE8'>email a client</text><text x='481' y='594' font-size='22' fill='#2F5FE8'>delete shared data</text><line x1='50' y1='765' x2='850' y2='765' stroke='#D4D4D0' stroke-width='2'/><text x='50' y='812' font-size='22' fill='#6B6B6B'>Approval effort goes where mistakes are expensive.</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Real-world example",
+      "offset": 120,
+      "html": "<div class='kicker'>Illustrative · release notes agent</div><h2>One approval per release, not forty.</h2><div style='display:grid;grid-template-columns:1fr auto;row-gap:22px;column-gap:30px;align-items:baseline'><p style='font-size:32px;color:#0E0E0E'>Reads merged PRs</p><span class='mono' style='font-size:24px;color:#6B6B6B'>FREE</span><p style='font-size:32px;color:#0E0E0E'>Drafts notes in a shared doc</p><span class='mono' style='font-size:24px;color:#6B6B6B'>FREE</span><p style='font-size:32px;color:#0E0E0E'>Sets fix versions in the tracker</p><span class='mono' style='font-size:24px;color:#6B6B6B'>NOTIFY</span><p style='font-size:32px;color:#0E0E0E'>Emails client stakeholders</p><span class='mono accent' style='font-size:24px'>APPROVE</span></div><hr style='margin:34px 0'><p>The human reviews the one thing a client will read, and nothing else.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Set it up this week</h2><div style='display:grid;grid-template-columns:70px 1fr;row-gap:28px;align-items:baseline'><span class='mono accent' style='font-size:28px'>01</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>List every tool the agent can call.</b> Including the ones nobody uses.</p><span class='mono accent' style='font-size:28px'>02</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Remove what it doesn’t need.</b> The safest tool is the one that isn’t there.</p><span class='mono accent' style='font-size:28px'>03</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Place each one in a zone.</b> Write the rule next to it.</p><span class='mono accent' style='font-size:28px'>04</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Enforce it in the tool layer.</b> A prompt can be ignored. A missing permission cannot.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 140,
+      "html": "<h2>What makes it hold</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>CREDENTIALS</p><p style='font-size:34px;color:#0E0E0E'>Match keys to the zone.</p><p style='font-size:30px;margin-top:6px'>Read-only work gets read-only access.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>APPROVALS</p><p style='font-size:34px;color:#0E0E0E'>Show the exact action.</p><p style='font-size:30px;margin-top:6px'>The diff, the recipient, the command. Not a summary.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>REVIEW</p><p style='font-size:34px;color:#0E0E0E'>Move tools between zones.</p><p style='font-size:30px;margin-top:6px'>Based on what actually went wrong, not on fear.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:76px'>Which action would you never let an agent take without asking?</h2><p style='margin-top:30px'>And which approvals have you stopped reading?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this before you wire up your next agent.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
