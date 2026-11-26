@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-26",
+  "pillar": "Product & Startups",
+  "headline": "Signups prove your marketing works. Retention proves your product does.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Product · Product-market fit",
+      "offset": 150,
+      "html": "<h1 style='font-size:100px'>Signups prove your marketing works.</h1><h1 class='accent' style='font-size:100px;margin-top:28px'>Retention proves your product does.</h1><p style='margin-top:52px;max-width:820px'>The clearest early signal of product-market fit is not how many people arrive. It is whether some of them stay.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 120,
+      "html": "<div class='kicker'>The chart in every board deck</div><h2>Total users only goes up.</h2><p>A cumulative chart counts everyone who ever signed up. It rises even when most of them left last month.</p><hr><p style='color:#0E0E0E'>A launch, a discount or a viral post can triple signups in a week.</p><p style='margin-top:18px'>None of that tells you whether the product solved a problem worth coming back for.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 120,
+      "html": "<div class='kicker'>Cohort retention</div><h2>Group users by start week. Watch who keeps using it.</h2><p><b style='font-family:Space Grotesk'>Cohort:</b> everyone who started in the same week.</p><hr style='margin:26px 0'><p><b style='font-family:Space Grotesk'>Retained:</b> did the core action again in week 1, 2, 3 and so on. Not “logged in”.</p><hr style='margin:26px 0'><p>Read the <span class='accent'>shape</span> of the curve, not one number.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2 style='margin-bottom:20px'>Two curves. Only one is a business.</h2><svg width='850' height='800' viewBox='0 0 850 800'><g font-family='Plex Mono'><text x='0' y='40' font-size='22' fill='#6B6B6B'>% OF COHORT STILL ACTIVE</text><line x1='90' y1='70' x2='90' y2='580' stroke='#0E0E0E' stroke-width='2'/><line x1='90' y1='580' x2='830' y2='580' stroke='#0E0E0E' stroke-width='2'/><text x='76' y='86' font-size='22' fill='#6B6B6B' text-anchor='end'>100</text><text x='76' y='588' font-size='22' fill='#6B6B6B' text-anchor='end'>0</text><text x='90' y='620' font-size='22' fill='#6B6B6B'>WEEK 0</text><text x='830' y='620' font-size='22' fill='#6B6B6B' text-anchor='end'>WEEK 12</text><line x1='90' y1='400' x2='830' y2='400' stroke='#D4D4D0' stroke-width='2' stroke-dasharray='6 8'/><path d='M90,80 C170,330 290,385 830,395' fill='none' stroke='#2F5FE8' stroke-width='5'/><path d='M90,80 C160,400 320,545 830,572' fill='none' stroke='#6B6B6B' stroke-width='4' stroke-dasharray='12 9'/><text x='830' y='360' font-size='24' font-weight='500' fill='#2F5FE8' text-anchor='end'>FLATTENS</text><text x='830' y='326' font-size='22' fill='#2F5FE8' text-anchor='end'>a group found lasting value</text><text x='830' y='490' font-size='24' font-weight='500' fill='#0E0E0E' text-anchor='end'>DECAYS TOWARD ZERO</text><text x='830' y='524' font-size='22' fill='#6B6B6B' text-anchor='end'>a leaky bucket</text><line x1='0' y1='690' x2='850' y2='690' stroke='#D4D4D0' stroke-width='2'/><text x='0' y='736' font-size='22' fill='#6B6B6B'>Illustrative shapes. Where it flattens depends on</text><text x='0' y='770' font-size='22' fill='#6B6B6B'>the product and how often the problem occurs.</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Real-world example",
+      "offset": 120,
+      "html": "<div class='kicker'>Illustrative · B2B reporting tool</div><h2>Signups tripled. The curve got worse.</h2><div style='display:grid;grid-template-columns:200px 1fr;row-gap:24px;align-items:baseline'><span class='mono' style='font-size:24px;color:#6B6B6B'>THE LAUNCH</span><p style='font-size:32px;color:#0E0E0E'>A big campaign brought in many new teams.</p><span class='mono' style='font-size:24px;color:#6B6B6B'>THE CURVE</span><p style='font-size:32px;color:#0E0E0E'>New cohorts never built a first report. Retention fell to near zero.</p><span class='mono accent' style='font-size:24px'>THE FIX</span><p style='font-size:32px;color:#0E0E0E'>Paused paid acquisition. Rebuilt onboarding around one goal: first report in ten minutes.</p></div><hr style='margin:32px 0'><p>More users would only have filled the bucket faster.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Build the chart this week</h2><div style='display:grid;grid-template-columns:70px 1fr;row-gap:28px;align-items:baseline'><span class='mono accent' style='font-size:28px'>01</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Name the core action.</b> The thing that means the product did its job.</p><span class='mono accent' style='font-size:28px'>02</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Match the natural frequency.</b> Daily for chat, weekly for planning, monthly for payroll.</p><span class='mono accent' style='font-size:28px'>03</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Log it as an event with a user and a timestamp.</b> That is all a cohort needs.</p><span class='mono accent' style='font-size:28px'>04</span><p style='font-size:32px'><b style='font-family:Space Grotesk'>Review it before the roadmap.</b> Not after the next launch.</p></div>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 140,
+      "html": "<h2>What to remember</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>SHAPE OVER SIZE</p><p style='font-size:34px;color:#0E0E0E'>A small cohort that flattens beats a big one that decays.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>ORDER OF WORK</p><p style='font-size:34px;color:#0E0E0E'>Fix retention before you buy growth.</p><p style='font-size:30px;margin-top:6px'>Acquisition multiplies whatever the curve already is.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>NEXT QUESTION</p><p style='font-size:34px;color:#0E0E0E'>Who are the users who stayed?</p><p style='font-size:30px;margin-top:6px'>Build for them. They are your market.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:76px'>What is the core action for your product?</h2><p style='margin-top:30px'>And does your team actually track it, or just signups?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this before your next growth review.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
