@@ -22,6 +22,7 @@ Published posts only. Ready-made but unpublished posts live in `drafts/`.
 | 2026-11-24 | Leadership | "Be more proactive" isn't feedback. It's a verdict. | [posts/2026/11/2026-11-24-sbi-feedback](posts/2026/11/2026-11-24-sbi-feedback) |
 | 2026-11-25 | AI in Engineering | Approve the action, not the answer. | [posts/2026/11/2026-11-25-gate-irreversible-actions](posts/2026/11/2026-11-25-gate-irreversible-actions) |
 | 2026-11-26 | Product & Startups | Signups prove your marketing works. Retention proves your product does. | [posts/2026/11/2026-11-26-retention-curve-flattens](posts/2026/11/2026-11-26-retention-curve-flattens) |
+| 2026-11-27 | Technology & Architecture | Deploying code and releasing a feature are two different decisions. | [posts/2026/11/2026-11-27-deploy-is-not-release](posts/2026/11/2026-11-27-deploy-is-not-release) |
 
 ## Drafts
 
