@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-28",
+  "pillar": "Project Management",
+  "headline": "Your project was green for six weeks. Then it was red.",
+  "slides": [
+    {
+      "theme": "dark",
+      "tag": "Delivery · Reporting",
+      "offset": 170,
+      "html": "<h1 style='font-size:108px'>Green for six weeks.</h1><h1 class='accent' style='font-size:108px;margin-top:28px'>Red in week seven.</h1><p style='margin-top:52px;max-width:820px'>Projects rarely turn red overnight. The status report just stopped showing which way they were moving.</p>",
+      "footnote": "swipe →"
+    },
+    {
+      "theme": "light",
+      "tag": "Context",
+      "offset": 130,
+      "html": "<div class='kicker'>The watermelon project</div><h2>Green on the outside. Red on the inside.</h2><p>A traffic-light status is a snapshot of today, and an opinion.</p><hr><p style='color:#0E0E0E'>Nobody wants to be the first to say amber. So every report reads “on track” until the date is already lost.</p><p style='margin-top:18px'>By the time the colour changes, the options to recover are gone.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "The concept",
+      "offset": 120,
+      "html": "<div class='kicker'>Change the question</div><h2>Report the trend, not the colour.</h2><p><b style='font-family:Space Grotesk'>Forecast:</b> the date you expect to finish, and how it moved since last week.</p><hr style='margin:26px 0'><p><b style='font-family:Space Grotesk'>Evidence:</b> what was finished against what was planned. Done or not done, not “80%”.</p><hr style='margin:26px 0'><p><b style='font-family:Space Grotesk'>Ask:</b> the one decision or unblock you need, <span class='accent'>and from whom</span>.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "How it works",
+      "offset": 100,
+      "html": "<h2 style='margin-bottom:20px'>Plot the forecast every week.</h2><p style='font-size:28px;margin-bottom:24px'>The status said green. The line said otherwise.</p><svg width='850' height='700' viewBox='0 0 850 700'><g font-family='Plex Mono'><line x1='110' y1='40' x2='110' y2='560' stroke='#D4D4D0' stroke-width='2'/><line x1='110' y1='560' x2='830' y2='560' stroke='#D4D4D0' stroke-width='2'/><text x='96' y='192' font-size='20' fill='#6B6B6B' text-anchor='end'>22 Mar</text><text x='96' y='272' font-size='20' fill='#0E0E0E' text-anchor='end' font-weight='500'>15 Mar</text><text x='96' y='432' font-size='20' fill='#6B6B6B' text-anchor='end'>1 Mar</text><line x1='110' y1='265' x2='830' y2='265' stroke='#0E0E0E' stroke-width='2' stroke-dasharray='8 7'/><text x='124' y='250' font-size='20' fill='#0E0E0E'>COMMITTED DATE</text><polyline points='160,425 265,402 370,368 475,345 580,322 685,276 790,219' fill='none' stroke='#2F5FE8' stroke-width='4'/><g fill='#2F5FE8'><rect x='152' y='417' width='16' height='16'/><rect x='257' y='394' width='16' height='16'/><rect x='362' y='360' width='16' height='16'/><rect x='467' y='337' width='16' height='16'/><rect x='572' y='314' width='16' height='16'/><rect x='677' y='268' width='16' height='16'/><rect x='782' y='211' width='16' height='16'/></g><g font-size='20' fill='#6B6B6B' text-anchor='middle'><text x='160' y='596'>W1</text><text x='265' y='596'>W2</text><text x='370' y='596'>W3</text><text x='475' y='596'>W4</text><text x='580' y='596'>W5</text><text x='685' y='596'>W6</text><text x='790' y='596'>W7</text></g><g font-size='17' font-weight='500' fill='#6B6B6B' text-anchor='middle'><text x='160' y='530'>GREEN</text><text x='265' y='530'>GREEN</text><text x='370' y='530'>GREEN</text><text x='475' y='530'>GREEN</text><text x='580' y='530'>GREEN</text><text x='685' y='530'>GREEN</text><text x='790' y='530' fill='#0E0E0E'>RED</text></g><line x1='370' y1='354' x2='370' y2='150' stroke='#2F5FE8' stroke-width='2' stroke-dasharray='5 6'/><text x='382' y='118' font-size='21' font-weight='500' fill='#2F5FE8'>THE TREND WAS</text><text x='382' y='146' font-size='21' font-weight='500' fill='#2F5FE8'>VISIBLE HERE</text><line x1='110' y1='640' x2='830' y2='640' stroke='#D4D4D0' stroke-width='2'/><text x='110' y='680' font-size='20' fill='#6B6B6B'>ILLUSTRATIVE · FORECAST FINISH DATE BY WEEK</text></g></svg>"
+    },
+    {
+      "theme": "light",
+      "tag": "Example · Illustrative",
+      "offset": 110,
+      "html": "<div class='kicker'>Same project, week six</div><h2 style='margin-bottom:34px'>Two status reports.</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>BEFORE</p><p style='font-size:32px;color:#0E0E0E;margin-top:10px'>Status: Green. Integration 80% complete. On track.</p><hr style='margin:32px 0'><p class='mono accent' style='font-size:24px;letter-spacing:.06em'>AFTER</p><p style='font-size:32px;color:#0E0E0E;margin-top:10px'>Forecast 14 Mar. Was 6 Mar three weeks ago. Committed 15 Mar.</p><p style='font-size:30px;margin-top:14px'>Slipped 8 days in three weeks. One day of buffer left. 3 of 7 planned stories done.</p><p style='font-size:30px;margin-top:14px'>Cause: vendor sandbox access still pending.</p><p style='font-size:30px;margin-top:14px'><b style='font-family:Space Grotesk;color:#0E0E0E'>Ask:</b> sponsor to escalate access by Tuesday.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Practical application",
+      "offset": 110,
+      "html": "<h2>Make the colour a rule, not a mood</h2><div style='display:grid;grid-template-columns:150px 1fr;row-gap:26px;align-items:baseline'><span class='mono' style='font-size:26px;color:#0E0E0E'>GREEN</span><p style='font-size:31px'>Forecast is before the committed date, with buffer to spare.</p><span class='mono' style='font-size:26px;color:#6B6B6B'>AMBER</span><p style='font-size:31px'>Forecast is eating into the buffer, or moved two weeks running.</p><span class='mono accent' style='font-size:26px'>RED</span><p style='font-size:31px'>Forecast is past the committed date.</p></div><hr style='margin:34px 0'><p style='font-size:31px;color:#0E0E0E'>Agree the thresholds with stakeholders at kickoff.</p><p style='font-size:30px;margin-top:12px'>Then amber is arithmetic, not an admission. And every amber or red arrives with an ask.</p>"
+    },
+    {
+      "theme": "light",
+      "tag": "Takeaways",
+      "offset": 140,
+      "html": "<h2>What to remember</h2><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>DIRECTION</p><p style='font-size:34px;color:#0E0E0E'>A colour tells you where you are.</p><p style='font-size:30px;margin-top:6px'>A forecast trend tells you where you are heading.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>EVIDENCE</p><p style='font-size:34px;color:#0E0E0E'>Report done versus planned.</p><p style='font-size:30px;margin-top:6px'>“80% complete” hides the hardest 20%.</p><hr style='margin:28px 0'><p class='mono' style='font-size:24px;color:#6B6B6B;letter-spacing:.06em'>CULTURE</p><p style='font-size:34px;color:#0E0E0E'>Thank people for an early amber.</p><p style='font-size:30px;margin-top:6px'>Punish it once and you will only ever see green.</p>"
+    },
+    {
+      "theme": "dark",
+      "tag": "Your turn",
+      "offset": 190,
+      "html": "<h2 style='font-size:76px'>What does “green” mean on your status report?</h2><p style='margin-top:30px'>Is it a number your stakeholders agreed to, or someone's feeling on Friday afternoon?</p><hr><p class='mono' style='font-size:28px;line-height:1.8'><span class='accent'>Save</span> this before your next status review.<br><span class='accent'>Follow</span> @techtaleswithabhi for delivery, architecture &amp; AI — without the hype.</p>",
+      "footnote": "techtaleswithabhi.com"
+    }
+  ]
+}
